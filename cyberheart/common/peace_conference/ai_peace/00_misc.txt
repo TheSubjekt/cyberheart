@@ -123,17 +123,6 @@ peace_ai_desires = {
         ai_desire = -75
     }
 
-    # Countries the ai should be more unlikely to release in a peace deal
-    unlikely_countries = {
-        peace_action_type = liberate
-        enable = {
-            FROM = {
-                is_unlikely_country_tag = yes
-            }
-        }
-        ai_desire = -85  # 85 percent lower desire
-    }
-
     # Force gov on communism preferably
     democracy_force_government_on_communism = {
         peace_action_type = force_government
