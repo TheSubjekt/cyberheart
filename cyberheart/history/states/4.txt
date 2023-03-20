@@ -1,0 +1,16 @@
+
+state={
+	id=4
+	name="STATE_4"
+	history={
+		owner = COS
+		add_core_of = COS
+	}
+
+	provinces={
+		604 724 1026 1187 1319 1684 1820 1930 1941 3086 3141 4147 4456 4585 4732 4851 5213 5499 5678 5772 9360 9370 9371 9374 9381 9385 9386 9390 9397 9398 9400 9404 9406 9411 9415 9423 9433 9450 9454 9459 9628 
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

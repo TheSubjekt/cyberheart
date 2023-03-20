@@ -1,0 +1,16 @@
+
+state={
+	id=25
+	name="STATE_25"
+	history={
+		owner = CAN
+		add_core_of = CAN
+	}
+
+	provinces={
+		508 925 1815 1829 1856 2108 2218 2326 2424 2579 2728 2981 3186 3245 3304 3497 3800 3855 4347 4418 4429 5220 5515 5658 5716 6442 6464 6466 6476 6482 6488 6490 6502 6503 6505 6521 6522 6523 6551 6555 6569 
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

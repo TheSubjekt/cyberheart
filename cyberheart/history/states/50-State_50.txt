@@ -1,0 +1,15 @@
+state={
+	id=50
+	name="STATE_50"
+	history={
+		owner = USA
+		add_core_of = USA
+	}
+
+	provinces={
+		1164 1341 1405 2148 3784 5595 5681 5846 7023 7042 7057 7162 7194 
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

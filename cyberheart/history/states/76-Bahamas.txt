@@ -1,0 +1,16 @@
+
+state={
+	id=76
+	name="STATE_76"
+	history={
+		owner = BAH
+		add_core_of = BAH
+	}
+
+	provinces={
+		2264 3554 4220 4726 4927 5943 8407 9599 9601 9602 9604 9605 9606 9607 9608 9609 9610 9611 9613 9616 14940 
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

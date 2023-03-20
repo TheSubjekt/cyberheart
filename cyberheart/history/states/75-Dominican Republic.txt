@@ -1,0 +1,15 @@
+state={
+	id=75
+	name="STATE_75"
+	history={
+		owner = DOM
+		add_core_of = DOM
+	}
+
+	provinces={
+		841 1488 1721 1792 1848 2505 2976 3007 3149 3220 3640 4457 4501 4555 4729 4780 4794 5318 5323 5434 5505 5532 5551 8587 8592 8596 8600 8613 8615 8616 8618 8647 8650 8666 8701 8706 14944 
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

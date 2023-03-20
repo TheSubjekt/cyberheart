@@ -1,0 +1,16 @@
+
+state={
+	id=58
+	name="STATE_58"
+	history={
+		owner = USA
+		add_core_of = USA
+	}
+
+	provinces={
+		1951 2377 2547 2567 2798 2853 3334 3721 4607 5627 7156 7200 7220 7233 7236 7243 7270 7278 7281 7305 7318 
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

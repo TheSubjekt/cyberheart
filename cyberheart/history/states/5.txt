@@ -1,0 +1,15 @@
+state={
+	id=5
+	name="STATE_5"
+	history={
+		owner = ELS
+		add_core_of = ELS
+	}
+
+	provinces={
+		282 1781 3121 3395 3897 5405 5679 9233 9244 9248 9249 9253 9263 9271 9275 
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}

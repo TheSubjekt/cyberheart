@@ -1,0 +1,15 @@
+state={
+	id=72
+	name="STATE_72"
+	history={
+		owner = USA
+		add_core_of = USA
+	}
+
+	provinces={
+		978 2484 2623 3009 4077 4267 4274 5001 5051 5065 5749 5786 8186 8232 9592 9595 
+	}
+	manpower=1
+	state_category=town
+	buildings_max_level_factor=1.000
+}
