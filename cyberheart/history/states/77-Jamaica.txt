@@ -1,10 +1,6 @@
 state={
 	id=77
 	name="STATE_77"
-	history={
-		owner = JAM
-		add_core_of = JAM
-	}
 
 	provinces={
 		1220 1275 1814 2704 5189 8765 8766 8773 8782 8783 

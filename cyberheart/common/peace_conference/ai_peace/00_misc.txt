@@ -128,7 +128,7 @@ peace_ai_desires = {
         peace_action_type = liberate
         enable = {
             FROM = {
-                is_unlikely_country_tag = yes
+            	tag = USA ## fix for now
             }
         }
         ai_desire = -85  # 85 percent lower desire
