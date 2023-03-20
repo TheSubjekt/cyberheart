@@ -4,21 +4,15 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1936.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "GER"
+		default_country = "USA"
 		default = yes
 		
 		"USA"={
 			history = "USA_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
-				home_of_the_free
-				great_depression
-				undisturbed_isolation
 			}
 			focuses = {
-				USA_war_plan_black
-				USA_limited_intervention
-				USA_reestablish_the_gold_standard
 			}
 		}
 		effect = {

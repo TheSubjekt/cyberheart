@@ -134,29 +134,6 @@ peace_ai_desires = {
         ai_desire = -85  # 85 percent lower desire
     }
 
-
-    # Countries the ai should be more unlikely to puppet in a peace deal
-    unlikely_countries = {
-        peace_action_type = puppet
-        enable = {
-            FROM = {
-                is_unlikely_country_tag = yes
-            }
-        }
-        ai_desire = -50  # 50 percent lower desire (slightly more keen to puppet than to liberate)
-    }
-
-
-    # Breakaway countries in the Soviet Civil war don't want to liberate stuff
-    breakaway_country = {
-        peace_action_type = { liberate puppet force_government }
-        enable = {
-           ROOT = { has_country_flag = SOV_breakaway_country_flag }
-        }
-        ai_desire = -200  # just don't, please
-    }
-
-
     # Force gov on communism preferably
     democracy_force_government_on_communism = {
         peace_action_type = force_government
