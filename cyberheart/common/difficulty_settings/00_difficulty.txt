@@ -1,0 +1,9 @@
+difficulty_settings = {
+	difficulty_setting = {	### Depreciate once we change USA to NUSA :))
+		key = "custom_diff_strong_usa"
+		modifier = diff_strong_ai_generic
+		countries = { RCH }
+		multiplier = 2.0
+	}
+
+}
