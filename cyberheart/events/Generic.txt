@@ -30,13 +30,6 @@ country_event = {
 			has_government = FROM
 		}
 		if = {
-			limit = {
-				FROM = {
-					tag = ENG
-					has_completed_focus = uk_china_focus
-				}
-				tag = event_target:WTT_current_china_leader
-			}
 			effect_tooltip = {
 				add_offsite_building = { type = arms_factory level = 2 }
 			}
@@ -48,13 +41,6 @@ country_event = {
 			NOT = { has_government = FROM }
 		}
 		if = {
-			limit = {
-				FROM = {
-					tag = ENG
-					has_completed_focus = uk_china_focus
-				}
-				tag = event_target:WTT_current_china_leader
-			}
 			effect_tooltip = {
 				add_offsite_building = { type = arms_factory level = 2 }
 			}
@@ -445,11 +431,6 @@ country_event = {
 			}
 		}
 		if = {
-			limit = {
-				original_tag = LAT
-				FROM = { original_tag = GER }
-				has_completed_focus = LAT_alignment_with_germany
-			}
 			uncomplete_national_focus = {
 				focus = LAT_alignment_with_germany
 				uncomplete_children = yes
@@ -493,11 +474,6 @@ country_event = {
 			}
 		}
 		if = {
-			limit = {
-				original_tag = LAT
-				FROM = { original_tag = GER }
-				has_completed_focus = LAT_alignment_with_germany
-			}
 			uncomplete_national_focus = {
 				focus = LAT_alignment_with_germany
 				uncomplete_children = yes
@@ -598,12 +574,6 @@ country_event = {
 		}
 		ai_chance = {
 			base = 100
-			modifier = {
-				factor = 0
-				original_tag = FRA
-				is_in_faction_with = POL
-				POL = { has_completed_focus = POL_morges_pact }
-			}
 		}
 		FROM = {
 			faction_leader = {
@@ -620,17 +590,6 @@ country_event = {
 			set_country_flag = alliance_applicant@ROOT
 			FROM = { set_country_flag = alliance_inviter@ROOT }
 			news_event = { id = news.289 hours = 12 }
-			if = {
-				limit = {
-					FROM = {
-						original_tag = GER
-						has_government = democratic
-						has_completed_focus = GER_pool_technical_know_how
-					}
-					NOT = { has_idea = GER_pool_technical_know_how }
-				}
-				add_ideas = GER_pool_technical_know_how
-			}
 		}
 	}
 	option = { #Agree / Both Fascist
@@ -675,12 +634,6 @@ country_event = {
 		}
 		ai_chance = {
 			base = 100
-			modifier = {
-				factor = 0
-				original_tag = FRA
-				is_in_faction_with = POL
-				POL = { has_completed_focus = POL_morges_pact }
-			}
 		}
 		FROM = { 
 			add_to_faction = ROOT
@@ -746,13 +699,6 @@ country_event = {
 					is_major = no
 				}
 			}
-			
-			modifier = {
-				factor = 0
-				original_tag = FRA
-				is_in_faction_with = POL
-				POL = { has_completed_focus = POL_morges_pact }
-			}
 		}
 		FROM = { 
 			faction_leader = {
@@ -777,17 +723,6 @@ country_event = {
 			set_country_flag = alliance_applicant@ROOT
 			FROM = { set_country_flag = alliance_inviter@ROOT }
 			news_event = { id = news.289 hours = 12 }
-			if = {
-				limit = {
-					FROM = {
-						original_tag = GER
-						has_government = democratic
-						has_completed_focus = GER_pool_technical_know_how
-					}
-					NOT = { has_idea = GER_pool_technical_know_how }
-				}
-				add_ideas = GER_pool_technical_know_how
-			}
 		}
 	}
 	
@@ -860,15 +795,6 @@ country_event = {
 				factor = 0.1
 				FROM = {
 					is_major = yes
-				}
-			}
-
-			modifier = {
-				factor = 0
-				tag = SPC
-				FROM = {
-					original_tag = SOV
-					has_completed_focus = SOV_covert_support_for_spanish_poum
 				}
 			}
 		}
