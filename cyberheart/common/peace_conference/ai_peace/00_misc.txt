@@ -128,7 +128,7 @@ peace_ai_desires = {
         peace_action_type = liberate
         enable = {
             FROM = {
-            	tag = USA ## fix for now
+            	tag = NSA ## fix for now
             }
         }
         ai_desire = -85  # 85 percent lower desire
@@ -516,25 +516,6 @@ peace_ai_desires = {
         }
         ai_desire = 20
     }
-
-
-
-
-    dont_take_states_for_wrong_ideology_allies = {
-        peace_action_type = take_states
-        enable = {
-            ROOT = {
-                NOT = {
-                    tag = ROOT.FROM
-                }
-            }
-            ROOT.FROM = {
-                NOT = { has_same_ideology = yes }
-            }
-        }
-        ai_desire = -20
-    }
-
     prefer_take_states_for_puppets_with_cores = {
         peace_action_type = take_states
         enable = {
@@ -694,7 +675,6 @@ peace_ai_desires = {
                         pc_is_forced_government_by = ROOT
                         AND = {
                             country_exists = THIS #Ie - has provinces already and isn't a new creation
-                            has_same_ideology = yes
                         }
                         is_in_faction_with = ROOT
                     }

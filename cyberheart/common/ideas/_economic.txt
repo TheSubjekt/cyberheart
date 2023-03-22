@@ -209,14 +209,6 @@ ideas = {
 						}
 					}
 				}
-
-				modifier = {
-					add = 1800
-
-					# revert from closed_economy if we have large allies
-					has_idea = closed_economy
-					has_large_ally_not_pick_closed_economy = yes
-				}
    			}
 		}
 
@@ -480,14 +472,6 @@ ideas = {
 					is_major = no
 					has_war = no
 				}
-
-				modifier = {
-					add = 1500
-
-					# revert from closed_economy if we have large allies
-					has_idea = closed_economy
-					has_large_ally_not_pick_closed_economy = yes
-				}
    			}
 		}
 
@@ -539,13 +523,6 @@ ideas = {
 					has_war = no
 				}
 
-				modifier = {
-					factor = 0
-
-					# don't take if we have a reasonable sized ally
-					# since they will require our trades
-					has_large_ally_not_pick_closed_economy = yes
-				}
    			}
 		}
 	}

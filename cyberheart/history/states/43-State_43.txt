@@ -3,8 +3,8 @@ state={
 	id=43
 	name="STATE_43"
 	history={
-		owner = USA
-		add_core_of = USA
+		owner = NSA
+		add_core_of = NSA
 	}
 
 	provinces={

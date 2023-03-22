@@ -1,4 +1,54 @@
-USA = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+NSA = {
+	color = rgb { 60 59 110 }
+	color_ui = rgb { 60 59 110 }
+}
+
+WCS = {
+	color = rgb { 201 59 110 }
+	color_ui = rgb { 201 59 110 }
+}
+
+ROT = {
+	color = rgb { 255 238 34 }
+	color_ui = rgb { 255 238 34 }
+}
+
+NIC = {
+	color = rgb { 89 43 255 }
+	color_ui = rgb { 89 43 255 }
+}
+
+NRC = {
+	color = rgb { 60 59 110 }
+	color_ui = rgb { 60 59 110 }
+}
+
+NEV = {
+	color = rgb { 60 59 110 }
+	color_ui = rgb { 60 59 110 }
+}
+
+ARZ = {
+	color = rgb { 60 59 110 }
+	color_ui = rgb { 60 59 110 }
+}
+
+NMX = {
+	color = rgb { 60 59 110 }
+	color_ui = rgb { 60 59 110 }
+}
+
+CLR = {
+	color = rgb { 60 59 110 }
+	color_ui = rgb { 60 59 110 }
+}
+
+WYM = {
+	color = rgb { 60 59 110 }
+	color_ui = rgb { 60 59 110 }
+}
+
+MTN = {
+	color = rgb { 60 59 110 }
+	color_ui = rgb { 60 59 110 }
 }

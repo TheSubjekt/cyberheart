@@ -65,10 +65,6 @@ compliance_80 = {
 			}
 		}
 	}
-	enabled = {
-		is_available_to_collaboration_government = yes
-		has_rule = can_create_collaboration_government
-	}
 	state_modifier = {
 	}
 	

@@ -1,0 +1,45 @@
+﻿l_english:
+
+ NSA:0 "New United States of America"
+ NSA_DEF:0 "The New United States of America"
+ NSA_ADJ:0 "NUSA"
+
+ WCS:0 "Western Corporate States"
+ WCS_DEF:0 "The Western Corporate States"
+ WCS_ADJ:0 "WCS"
+
+ ROT:0 "Republic of Texas"
+ ROT_DEF:0 "The Republic of Texas"
+ ROT_ADJ:0 "Texan"
+
+ NIC:0 "Night City"
+ NIC_DEF:0 "The Free City of Night City"
+ NIC_ADJ:0 "Night City"
+
+ NRC:0 "Northen California"
+ NRC_DEF:0 "Northern California"
+ NRC_ADJ:0 "NorCal"
+
+ NEV:0 "Nevada"
+ NEV_DEF:0 "Nevada"
+ NEV_ADJ:0 "Nevada"
+
+ ARZ:0 "Arizona"
+ ARZ_DEF:0 "Arizona"
+ ARZ_ADJ:0 "Arizona"
+
+ NMX:0 "New Mexico"
+ NMX_DEF:0 "New Mexico"
+ NMX_ADJ:0 "New Mexico"
+
+ CLR:0 "Colorado"
+ CLR_DEF:0 "Colorado"
+ CLR_ADJ:0 "Colorado"
+
+ WYM:0 "Wyoming"
+ WYM_DEF:0 "Wyoming"
+ WYM_ADJ:0 "Wyoming"
+
+ MTN:0 "Montana"
+ MTN_DEF:0 "Montana"
+ MTN_ADJ:0 "Montana"
