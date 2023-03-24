@@ -1,5 +1,4 @@
 version="0.0.1"
-version="0.0.1"
 replace_path="common/abilities"
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
