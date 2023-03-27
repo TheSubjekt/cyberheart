@@ -12,9 +12,9 @@
  ROT_DEF:0 "The Republic of Texas"
  ROT_ADJ:0 "Texan"
 
- NIC:0 "Night City"
- NIC_DEF:0 "The Free City of Night City"
- NIC_ADJ:0 "Night City"
+ NCY:0 "Night City"
+ NCY_DEF:0 "The Free City of Night City"
+ NCY_ADJ:0 "Night City"
 
  NRC:0 "Northen California"
  NRC_DEF:0 "Northern California"

@@ -9,8 +9,8 @@ state={
 	local_supplies=0.000
 	state_category=megalopolis
 	history={
-		owner = NIC
-		add_core_of = NIC
+		owner = NCY
+		add_core_of = NCY
                 victory_points = { 
                     14955 50
                  }

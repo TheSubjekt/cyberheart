@@ -1,7 +1,7 @@
 NSA="countries/New United States of America.txt"
 WCS="countries/Pacific Northwest.txt"
 ROT="countries/Republic of Texas.txt"
-NIC="countries/Night City.txt"
+NCY="countries/Night City.txt"
 NRC="countries/Northern California.txt"
 NEV="countries/Nevada.txt"
 ARZ="countries/Arizona.txt"
