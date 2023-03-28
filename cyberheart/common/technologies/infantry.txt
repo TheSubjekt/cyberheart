@@ -1,2 +1,240 @@
+#!gfx:interface\countrytechtreeview.gui
+#!gfx:interface\metro_technologies.gfx
+## Code above is for VSC HOI4 utility. pls leave ty
+
 technologies = {
+
+	@TECH_YEAR_2040 = 1
+	@TECH_YEAR_2070 = 2
+	@TECH_YEAR_2073 = 4
+	@TECH_YEAR_2074 = 17
+	@TECH_YEAR_2075 = 10
+	@TECH_YEAR_2076 = 13
+	@TECH_YEAR_2077 = 16
+	@TECH_YEAR_2078 = 19
+	@TECH_YEAR_2079 = 22
+	@TECH_YEAR_2080 = 25
+
+	@TECH_CATEGORY_SUPPORT = 2
+	@TECH_CATEGORY_ARMAMENTS = 4
+	@TECH_CATEGORY_LVEHICLE = 7
+	@TECH_CATEGORY_MVEHICLE = 9
+	@TECH_CATEGORY_ELITE_URBAN = 11
+	@TECH_CATEGORY_ELITE_SKYBORNE = 13
+	@TECH_CATEGORY_ELITE_MOUNTAIN = 15
+
+	cp_infantry_equipment_tech_1 = {
+
+		#enable_equipments = {
+		#	## ENABLE INFANTRY EQUIPMENT
+		#}
+
+		path = {
+			leads_to_tech = cp_infantry_equipment_tech_2
+			research_cost_coeff = 1
+		}		
+		
+		research_cost = 1
+	    xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 0.5
+
+		start_year = 2040
+		folder = {
+			name = infantry_folder
+			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2040 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_infantry_equipment_tech_2 = {
+
+		enable_equipments = {
+			## ENABLE INFANTRY EQUIPMENT
+		}
+
+		path = {
+			leads_to_tech = cp_infantry_equipment_tech_3
+			research_cost_coeff = 1
+		}		
+		
+		research_cost = 1
+	    xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 0.5
+
+		start_year = 2073
+		folder = {
+			name = infantry_folder
+			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2073 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	cp_infantry_equipment_tech_3 = {
+
+		category_light_infantry = {
+			## CYBERWARE TECH
+			soft_attack = 0.01
+		}	
+
+		path = {
+			leads_to_tech = cp_infantry_equipment_tech_4
+			research_cost_coeff = 1
+		}		
+		
+		research_cost = 1
+	    xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 0.5
+
+		start_year = 2075
+		folder = {
+			name = infantry_folder
+			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2075 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	cp_infantry_equipment_tech_4 = {
+
+		enable_equipments = {
+			## ENABLE INFANTRY EQUIPMENT
+		}	
+
+		path = {
+			leads_to_tech = cp_infantry_equipment_tech_5
+			research_cost_coeff = 1
+		}		
+		
+		research_cost = 1
+	    xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 0.5
+
+		start_year = 2077
+		folder = {
+			name = infantry_folder
+			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2077 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	cp_infantry_equipment_tech_5 = {
+
+		category_light_infantry = {
+			## CYBERWARE TECH
+			soft_attack = 0.01
+		}	
+
+		path = {
+			leads_to_tech = cp_infantry_equipment_tech_6
+			research_cost_coeff = 1
+		}		
+		
+		research_cost = 1
+	    xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 0.5
+
+		start_year = 2078
+		folder = {
+			name = infantry_folder
+			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2078 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	cp_infantry_equipment_tech_6 = {
+
+		enable_equipments = {
+			## ENABLE INFANTRY EQUIPMENT
+		}	
+
+		path = {
+			leads_to_tech = cp_infantry_equipment_tech_7
+			research_cost_coeff = 1
+		}		
+		
+		research_cost = 1
+	    xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 0.5
+
+		start_year = 2079
+		folder = {
+			name = infantry_folder
+			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2079 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	cp_infantry_equipment_tech_7 = {
+
+		category_light_infantry = {
+			## CYBERWARE TECH
+			soft_attack = 0.01
+		}		
+		
+		research_cost = 1
+	    xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 0.5
+
+		start_year = 2080
+		folder = {
+			name = infantry_folder
+			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2080 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
 }
