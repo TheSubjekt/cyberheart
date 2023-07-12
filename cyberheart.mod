@@ -67,5 +67,5 @@ tags={
 	"Technologies"
 }
 name="cyberheart"
-supported_version="1.12.11"
+supported_version="1.12.14"
 path="C:/Users/Leon1/Documents/Paradox Interactive/Hearts of Iron IV/mod/cyberheart"
