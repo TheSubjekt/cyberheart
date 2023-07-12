@@ -65,4 +65,4 @@ tags={
 	"Technologies"
 }
 name="cyberheart"
-supported_version="1.12.11"
+supported_version="1.12.14"
