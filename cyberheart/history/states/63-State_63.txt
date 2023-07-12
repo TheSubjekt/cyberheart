@@ -6,7 +6,7 @@ state={
 	history={
 		owner = NSA
 		add_core_of = NSA
-
+		victory_points = { 4663 3 } # Salt Lake City
 	}
 
 	provinces={

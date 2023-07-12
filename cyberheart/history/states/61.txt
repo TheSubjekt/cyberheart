@@ -5,6 +5,9 @@ state={
 	history={
 		owner = NSA
 		add_core_of = NSA
+		victory_points = { 229 1 } # Boise City
+		victory_points = { 2651 1 } # Okhlahoma City
+		victory_points = { 1917 1 } # Tulsa
 	}
 
 	provinces={

@@ -5,6 +5,11 @@ state={
 	history={
 		owner = NMX
 		add_core_of = NMX
+		victory_points = { 2878 1 } # The Caves
+		victory_points = { 3370 1 } # Roswell
+		victory_points = { 7986 1 } # Albequerque
+		victory_points = { 4930 1 } # Red Mesa
+		victory_points = { 254 1 } # Santa Fe
 	}
 
 	provinces={

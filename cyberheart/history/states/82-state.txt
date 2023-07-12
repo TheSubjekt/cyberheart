@@ -11,8 +11,8 @@ state={
 	history={
 		owner = NCY
 		add_core_of = NCY
-                victory_points = { 
-                    14955 50
-                 }
+        victory_points = { 
+            14955 50
+        }
 	}
 }

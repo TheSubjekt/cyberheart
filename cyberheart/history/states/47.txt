@@ -5,6 +5,10 @@ state={
 	history={
 		owner = ARZ
 		add_core_of = ARZ
+		victory_points = { 8006 1 } # Flagstaff
+		victory_points = { 8246 1 } # Tucson
+		victory_points = { 8117 1 } # Phoenix
+		victory_points = { 5448 1 } # Alpha
 	}
 
 	provinces={
