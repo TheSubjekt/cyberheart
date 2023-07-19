@@ -1,0 +1,14 @@
+ideas = {
+	country = {
+		NCY_national_spirit_test = {
+			#picture = 
+
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+                war_support_factor = 0.01
+	        }
+	    }
+	}
+}

@@ -6,6 +6,8 @@ oob = "standard_templates"
 set_technology = {
 }
 
+add_ideas = NCY_national_spirit_test
+
 set_convoys = 20
 
 set_politics = {

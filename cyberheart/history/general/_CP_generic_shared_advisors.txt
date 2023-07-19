@@ -1,0 +1,127 @@
+every_possible_country = {
+	limit = { is_dynamic_country = no }
+	## We can change these token ids eventually
+	generate_character = {
+		token_base = _cp_generic_minister_1
+		advisor = {
+			slot = political_advisor
+			traits = {  }
+			cost = 150
+			ai_will_do = { factor = 16 }
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_minister_1 }
+		}
+	}
+	generate_character = {
+		token_base = _cp_generic_minister_2
+		advisor = {
+			slot = political_advisor
+			traits = {  }
+			cost = 150
+			ai_will_do = { factor = 16 }
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_minister_2 }
+		}
+	}
+	generate_character = {
+		token_base = _cp_generic_minister_3
+		advisor = {
+			slot = political_advisor
+			traits = {  }
+			cost = 150
+			ai_will_do = { factor = 16 }
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_minister_3 }
+		}
+	}
+	generate_character = {
+		token_base = _cp_generic_minister_4
+		advisor = {
+			slot = political_advisor
+			traits = {  }
+			cost = 150
+			ai_will_do = { factor = 16 }
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_minister_4 }
+		}
+	}
+	generate_character = {
+		token_base = _cp_generic_minister_5
+		advisor = {
+			slot = army_chief
+			traits = { }
+			cost = 150
+			ai_will_do = { factor = 16 }
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_minister_8 }
+		}
+	}
+	generate_character = {
+		token_base = _cp_generic_minister_6
+		advisor = {
+			slot = navy_chief
+			traits = { }
+			cost = 150
+			ai_will_do = { factor = 16 }
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_minister_8 }
+		}
+	}
+	generate_character = {
+		token_base = _cp_generic_minister_7
+		advisor = {
+			slot = air_chief
+			traits = { }
+			cost = 150
+			ai_will_do = { factor = 16 }
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_minister_8 }
+		}
+	}
+	generate_character = {
+		token_base = _cp_generic_minister_8
+		advisor = {
+			slot = high_command
+			ledger = army
+			traits = { }
+			cost = 150
+			ai_will_do = { factor = 16 }
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_minister_5 }
+		}
+	}
+	generate_character = {
+		token_base = _cp_generic_minister_9
+		advisor = {
+			slot = high_command
+			ledger = army
+			traits = { }
+			cost = 150
+			ai_will_do = { factor = 16 }
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_minister_6 }
+		}
+	}
+	generate_character = {
+		token_base = _cp_generic_minister_10
+		advisor = {
+			slot = high_command
+			ledger = army
+			traits = { }
+			cost = 150
+			ai_will_do = { factor = 16 }
+		}
+		portraits = { 
+			army = { small = GFX_idea_generic_minister_7 }
+		}
+	}
+}

@@ -1,0 +1,11 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_idea_advisor_alert"
+		texturefile = "gfx/interface/officer_corp/advisor_unlock.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_concern_alert"
+		texturefile = "gfx/interface/idea_slot_concern_alert.dds"
+	}
+}
