@@ -1,0 +1,137 @@
+equipment_modules = {
+	## Would probably be much more ideal to be converted to only spec-ops usage than infantry
+
+	## Frontal Cortex
+	camillo_ram_manager = {
+		category = cp_eq_module_frontal_cortex
+
+		add_stats = {
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {}
+	}
+
+	ex_disk = {
+		category = cp_eq_module_frontal_cortex
+
+		add_stats = {
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {}
+	}
+
+	heal_on_kill = {
+		category = cp_eq_module_frontal_cortex
+
+		add_stats = {
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {}
+	}
+
+	limbic_system_enhancement = {
+		category = cp_eq_module_frontal_cortex
+
+		add_stats = {
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {}
+	}
+
+	mechatronic_core = {
+		category = cp_eq_module_frontal_cortex
+
+		add_stats = {
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {}
+	}
+
+	memory_booster = {
+		category = cp_eq_module_frontal_cortex
+
+		add_stats = {
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {}
+	}
+
+	ram_upgrade = {
+		category = cp_eq_module_frontal_cortex
+
+		add_stats = {
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {}
+	}
+
+	self_ice = {
+		category = cp_eq_module_frontal_cortex
+
+		add_stats = {
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {}
+	}
+
+	visual_cortex_support = {
+		category = cp_eq_module_frontal_cortex
+
+		add_stats = {
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {}
+	}
+
+	## Ocular System
+	kiroshi_optics_mk_1 = {
+		category = cp_eq_module_ocular_system
+
+		add_stats = {
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {}
+	}
+
+	kiroshi_optics_mk_2 = {
+		category = cp_eq_module_ocular_system
+
+		add_stats = {
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {}
+	}
+
+	kiroshi_optics_mk_3 = {
+		category = cp_eq_module_ocular_system
+
+		add_stats = {
+		}
+
+		xp_cost = 0
+
+		build_cost_resources = {}
+	}
+}

@@ -6,8 +6,8 @@ state={
 		owner = WCS
 		add_core_of = WCS
 		victory_points = { 3608 5 } # Olympia / Capital
-		victory_points = { 6682 2 } # Seattle
-		victory_points = { 6732 1 } # Tacoma
+		victory_points = { 6692 2 } # Seattle
+		victory_points = { 6710 1 } # Tacoma
 		victory_points = { 6836 1 } # Hanford
 		victory_points = { 3058 1 } # Spokane
 	}

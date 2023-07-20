@@ -289,7 +289,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "active_goal"
-			position = { x = 179 y = 48 }
+			position = { x = 170 y = 56 }
 			size = { width = 330 height = 50 }
 			clipping = no
 						
@@ -439,14 +439,14 @@ guiTypes = {
 		}
 		iconType = {
 			name = "leader"
-			position = { x = 18 y = 58 }
+			position = { x = 10 y = 61 }
 			spriteType = "GFX_leader_unknown"
 		}
 		
 		iconType = {
 			name = "leader_frame2"
 			spriteType = "GFX_pol_leader_frame"
-			position = { x = 10 y = 44 }		
+			position = { x = 3 y = 47 }		
 			alwaystransparent = yes
 		}
 

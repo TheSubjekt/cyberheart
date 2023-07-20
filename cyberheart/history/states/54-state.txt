@@ -9,11 +9,13 @@ state={
 		victory_points = { 3321 1 } # Stateline
 		victory_points = { 7678 1 } # Fresno
 		victory_points = { 7667 1 } # San Jose
-		victory_points = { 7679 4 } # San Franciso
+		victory_points = { 7649 4 } # San Franciso
 		victory_points = { 7521 1 } # Santa Rosa
 		victory_points = { 4106 2 } # Sacramento
 		victory_points = { 865 1 } # Monterey
 		victory_points = { 7762 1 } # Salinas
+		victory_points = { 5541 1 } # Stockton
+		victory_points = { 7315 1 } # Redding
 	}
 
 	provinces={

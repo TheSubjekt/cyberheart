@@ -6,10 +6,9 @@ state={
 		owner = WCS
 		add_core_of = WCS
 		victory_points = { 6843 4 } # Portland 
-		victory_points = { 6895 2 } # Salem
 		victory_points = { 6864 1 } # Horse Heaven
 		victory_points = { 1760 1 } # Ashland
-		victory_points = { 7421 1 } # Klamath Falls
+		victory_points = { 4448 1 } # Klamath Falls
 		victory_points = { 7036 1 } # Eugene
 	}
 
