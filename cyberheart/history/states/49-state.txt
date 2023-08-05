@@ -1,0 +1,16 @@
+state={
+	id=49
+	name="STATE_49"
+	provinces={
+		986 14377 
+	}
+	history={
+		owner = NCY
+		add_core_of = NCY 
+		buildings = { infrastructure = 1 }
+		victory_points = { 986 10 } # Night City
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,6 +1,4 @@
-capital = 47
-
-oob = "standard_templates"
+#capital = 47
 
 # Starting tech
 set_technology = {

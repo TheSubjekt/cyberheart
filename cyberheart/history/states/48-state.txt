@@ -1,0 +1,18 @@
+
+state={
+	id=48
+	name="STATE_48"
+	provinces={
+		733 3712 3715 10481 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = { infrastructure = 1 }
+		victory_points = { 733 3}#Concord
+		victory_points = { 3712 1}#Manchester
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

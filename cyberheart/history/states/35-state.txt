@@ -1,0 +1,20 @@
+state={
+	id=35
+	name="STATE_35"
+	provinces={
+		1019 1077 1132 1163 4168 6943 7045 7083 7138 7643 7791 8014 9876 9967 10051 10081 10096 10468 10495 10909 11783 12054 12445 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = { infrastructure = 1 }
+		victory_points = { 10909 1}#Balsam
+		victory_points = { 7138 1}#Charlotte
+		victory_points = { 10081 4}#Greensboro (In Axis)
+		victory_points = { 12054 4}#Raleigh (In Axis)
+		victory_points = { 7083 4}#Winston/Salem Urban Axis
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

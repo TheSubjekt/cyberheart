@@ -1,0 +1,19 @@
+state={
+	id=16
+	name="STATE_16"
+	provinces={
+		1352 1753 4586 4740 4757 4811 4814 4871 7834 7892 9802 10340 10532 12024 12513 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = { infrastructure = 1 }
+		victory_points = { 10340 1}#Witchita
+		victory_points = { 7834 3}#Kansas City
+		victory_points = { 7892 1}#Topeka
+		#victory_points = {}#Hydropolis
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

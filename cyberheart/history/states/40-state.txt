@@ -1,0 +1,19 @@
+state={
+	id=40
+	name="STATE_40"
+	provinces={
+		3917 3957 6823 6892 6929 6984 11892 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = { infrastructure = 1 }
+		victory_points = { 11892 3}#Annapolis
+		victory_points = { 3957 10}#Washington DC
+		victory_points = { 6929 1}#New Greenspring
+		victory_points = { 6984 3}#Baltimore
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

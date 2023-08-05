@@ -1,0 +1,16 @@
+state={
+	id=39
+	name="STATE_39"
+	provinces={
+		9758 9786 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = { infrastructure = 1 }
+		victory_points = { 9786 1}#Dover
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

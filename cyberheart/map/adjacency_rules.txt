@@ -1,4 +1,4 @@
-﻿# Adjacency rules determine if an army, navy or trade can pass through the adjacency (e.g. a canal or strait).
+# Adjacency rules determine if an army, navy or trade can pass through the adjacency (e.g. a canal or strait).
 #
 # If two countries at war control provinces in the adjacency it is considered contested.
 # The optional triggers is_enemy, is_friend and is_neutral are evaluated in order and if one evaluates to true the corresponding rule is used.
@@ -8,7 +8,5 @@
 # If any adjacency province controller is at war with the country the enemy rule is used, unless is_enemy evaluates to false, then the neutral rule is used.
 # If any adjacency province controller is an ally of is giving military access to the country the friend rule is used, unless is_friend evaluates to false, then the neutral rule is used.
 # Otherwise the neutral rule is used, unless is_neutral evaluates to false, then the enemy rule is used.
+#
 # The 'name' property is how you refer to the rule in adjacencies.csv
-
-
-### I believe adding 1 Adjacency would fix the error issue

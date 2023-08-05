@@ -1,0 +1,19 @@
+
+state={
+	id=5
+	name="STATE_5"
+	provinces={
+		1789 1832 3781 4778 7845 9616 9695 10556 10602 10672 12124 12535 12607 
+	}
+	history={
+		owner = WCS
+		add_core_of = WCS
+		buildings = { infrastructure = 1 }
+		victory_points = { 9616 3} #Boise
+		victory_points = { 7845 1} #Berchtesgaden
+		victory_points = { 12535 1} #Ruins of Idaho Falls
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

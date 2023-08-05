@@ -1,0 +1,20 @@
+state={
+	id=3
+	name="STATE_3"
+	provinces={
+		1320 1690 4296 4398 4747 7255 7315 7386 7414 7442 10155 10157 10198 10242 10271 10327 10690 10693 12155 12214 12673 
+	}
+	history={
+		owner = WCS
+		add_core_of = WCS
+		buildings = { infrastructure = 1 }
+		victory_points = { 10157 6} # Seattle
+		victory_points = { 7315 3} # Tacoma
+		victory_points = { 7386 3} # Olympia
+		victory_points = { 1690 1} # Ruins of Spokane
+		victory_points = { 4747 1} # Ruins of Hanford
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

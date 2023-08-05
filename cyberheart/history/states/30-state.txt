@@ -1,0 +1,20 @@
+state={
+	id=30
+	name="STATE_30"
+	provinces={
+		870 1595 1881 4437 4527 4531 6713 7551 9653 9654 9796 9810 10448 11621 11635 11637 12437 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = { infrastructure = 1 }
+		victory_points = { 6713 1}#Gary
+		victory_points = { 9654 1}#South Bend
+		victory_points = { 870 1}#Ft Wayne
+		victory_points = { 4531 1}#Indiana State Checkpoint
+		victory_points = { 10448 3}#Indianapolis
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

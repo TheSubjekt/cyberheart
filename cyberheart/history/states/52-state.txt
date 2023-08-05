@@ -1,0 +1,18 @@
+
+state={
+	id=52
+	name="STATE_52"
+	provinces={
+		3513 4328 
+	}
+	history={
+		owner = WCS
+		add_core_of = WCS
+		buildings = { infrastructure = 1 }
+		victory_points = { 3513 6}#Portland
+		victory_points = { 4328 6}#Salem
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

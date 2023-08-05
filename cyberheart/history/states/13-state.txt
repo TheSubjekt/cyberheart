@@ -1,0 +1,17 @@
+state={
+	id=13
+	name="STATE_13"
+	provinces={
+		1815 4610 4723 4794 4820 7688 7814 7888 10640 10711 12561 12633 12651 
+	}
+	history={
+		owner = WYM
+		add_core_of = WYM
+		buildings = { infrastructure = 1 }
+		victory_points = { 4723 3}#Cheyenne
+		victory_points = { 4820 1}#Thunder Basin
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

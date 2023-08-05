@@ -1,0 +1,18 @@
+state={
+	id=22
+	name="STATE_22"
+	provinces={
+		1719 1734 1866 1867 4664 4807 6752 6767 6827 7536 7896 9880 10618 10719 11667 12550 12577 12588 12597 12693 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = { infrastructure = 1 }
+		victory_points = { 1734 1}#Deadwood
+		victory_points = { 12250 1}#Duluth
+		victory_points = { 4807 6}#Minneapolis/St.Paul Plex
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

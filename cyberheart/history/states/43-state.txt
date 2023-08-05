@@ -1,0 +1,17 @@
+
+state={
+	id=43
+	name="STATE_43"
+	provinces={
+		3602 4445 7629 9675 10381 11662 11665 13158 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = { infrastructure = 1 }
+		victory_points = { 4445 3}#Montpellier
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

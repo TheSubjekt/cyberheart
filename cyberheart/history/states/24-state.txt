@@ -1,0 +1,20 @@
+state={
+	id=24
+	name="STATE_24"
+	provinces={
+		492 860 1587 4594 4622 4756 5059 7422 7480 7640 10192 10520 11509 11942 12735 12803 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = { infrastructure = 1 }
+		victory_points = { 5059 1}#Huntsville
+		victory_points = { 7422 1}#Ruins of Birmingham
+		victory_points = { 492 3}#Montgomery
+		victory_points = { 7640 1}#Dotham
+		victory_points = { 7480 1}#Mobile
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

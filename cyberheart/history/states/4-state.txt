@@ -1,0 +1,22 @@
+
+state={
+	id=4
+	name="STATE_4"
+	provinces={
+		1862 4521 4607 4736 4799 4816 7756 7827 7879 10422 10591 12134 12399 12425 14376 14378 14381 14382 
+	}
+	history={
+		owner = NEV
+		add_core_of = NEV
+		buildings = { infrastructure = 1 }
+		victory_points = { 14378 3} #Las Vegas
+		victory_points = { 14381 1} #Carson City
+		victory_points = { 14382 3} #Reno
+		victory_points = { 4736 1} #Los Juegos
+		victory_points = { 1862 1} #Arcadia
+		#victory_points = { 1} #Los Juegos
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

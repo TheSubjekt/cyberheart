@@ -1,0 +1,20 @@
+state={
+	id=8
+	name="STATE_8"
+	provinces={
+		1972 2102 3867 3883 4975 5044 8070 10642 10645 10867 10914 12552 12684 12720 12791 
+	}
+	history={
+		owner = NMX
+		add_core_of = NMX
+		buildings = { infrastructure = 1 }
+		victory_points = { 4975 1 }#Ruins of Santa Fe
+		victory_points = { 3883 3 }#Albequerque
+		victory_points = { 10642 1 }#Red Mesa
+		victory_points = { 8070 1 }#Roswell
+		victory_points = { 3867 1 }#The Caves
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

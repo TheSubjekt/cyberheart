@@ -1,0 +1,18 @@
+state={
+	id=34
+	name="STATE_34"
+	provinces={
+		788 865 873 951 1506 1582 3823 3925 6846 7558 9779 9931 10343 10412 10439 11738 11841 11873 12637 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = { infrastructure = 1 }
+		victory_points = { 3925 1}#Newport Mews
+		victory_points = { 865 1}#Norfolk
+		victory_points = { 3823 1}#Richmond
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

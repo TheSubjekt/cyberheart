@@ -1,0 +1,101 @@
+guiTypes = {
+	containerWindowType = {
+		name = "cp_topbar_extended_info_1_container"
+		position = { x= 407 y = 80 }
+		clipping = no
+		size = { width=62 height=30 }
+		Orientation = UPPER_LEFT
+
+		background = {
+			name = "cp_bg"
+			quadTextureSprite ="GFX_generic_box_smallest"
+		}
+		
+		#iconType = {
+		#	name ="---"
+		#	spriteType = "---"
+		#	position = { x= 5 y = 3 }
+		#	Orientation = "UPPER_LEFT"
+		#	alwaystransparent = yes
+		#}
+		
+		instantTextBoxType = {
+			name ="cp_topbar_extended_info_1_value"
+			position = { x= 30 y = 5 }
+			font = "digital_7_20b"
+			text = "0"
+			format = left
+			maxWidth = 30
+			maxHeight = 24
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "cp_topbar_extended_info_2_container"
+		position = { x= 481 y = 80 }
+		clipping = no
+		size = { width=62 height=30 }
+		Orientation = UPPER_LEFT
+
+		background = {
+			name = "cp_bg"
+			quadTextureSprite ="GFX_generic_box_smallest"
+		}
+		
+		#iconType = {
+		#	name ="---"
+		#	spriteType = "---"
+		#	position = { x= 5 y = 3 }
+		#	Orientation = "UPPER_LEFT"
+		#	alwaystransparent = yes
+		#}
+		
+		instantTextBoxType = {
+			name ="cp_topbar_extended_info_2_value"
+			position = { x= 30 y = 5 }
+			font = "digital_7_20b"
+			text = "0"
+			format = left
+			maxWidth = 30
+			maxHeight = 24
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+	}
+
+
+	containerWindowType = {
+		name = "cp_topbar_extended_info_3_container"
+		position = { x= 555 y = 80 }
+		clipping = no
+		size = { width=62 height=30 }
+		Orientation = UPPER_LEFT
+
+		background = {
+			name = "cp_bg"
+			quadTextureSprite ="GFX_generic_box_smallest"
+		}
+		
+		#iconType = {
+		#	name ="---"
+		#	spriteType = "---"
+		#	position = { x= 5 y = 3 }
+		#	Orientation = "UPPER_LEFT"
+		#	alwaystransparent = yes
+		#}
+		
+		instantTextBoxType = {
+			name ="cp_topbar_extended_info_3_value"
+			position = { x= 30 y = 5 }
+			font = "digital_7_20b"
+			text = "0"
+			format = left
+			maxWidth = 30
+			maxHeight = 24
+			fixedsize = yes
+			alwaystransparent = yes
+		}
+	}
+}

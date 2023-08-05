@@ -1,0 +1,15 @@
+add_namespace = cp_event
+
+country_event = {
+	id = cp_event.1
+	title = cp_event.1.t
+	desc = cp_event.1.d
+	picture = GFX_report_event_cp_event
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = cp_event.1.a
+		add_war_support = 0.02		
+	}
+}

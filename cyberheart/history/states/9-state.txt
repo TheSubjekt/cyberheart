@@ -1,0 +1,18 @@
+state={
+	id=9
+	name="STATE_9"
+	provinces={
+		1618 1806 2043 4919 5103 6803 7762 7904 7945 8025 9822 10702 10798 11743 11802 12624 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = { infrastructure = 1 }
+		victory_points = { 12624 1}#Boise
+		victory_points = { 10798 3}#Oklahoma City
+		victory_points = { 1806 3}#Tulsa
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

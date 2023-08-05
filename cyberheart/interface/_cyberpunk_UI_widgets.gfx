@@ -1,3 +1,5 @@
+## Its probably much easier to have one main file with all the UI gfx changes 
+## than to have all the base files with 1 or two GFX changes
 spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_advisor_alert"
@@ -7,5 +9,23 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_concern_alert"
 		texturefile = "gfx/interface/idea_slot_concern_alert.dds"
+	}
+
+	## // Nationalfocusview // ##
+
+	SpriteType = {
+		name = "GFX_button_cyberpunk_123x34"
+		texturefile = "gfx/interface/button_cyberpunk_123x34.dds"
+	}
+
+	## WT Icon
+
+	frameAnimatedSpriteType = {
+		name = "GFX_world_tension_disortion"
+		texturefile = "gfx/interface/world_tension_disortion.dds"
+		noOfFrames = 23
+		animation_rate_fps = 12
+		looping = yes
+		play_on_show = yes
 	}
 }

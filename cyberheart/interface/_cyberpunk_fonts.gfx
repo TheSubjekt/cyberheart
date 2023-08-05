@@ -1,0 +1,27 @@
+
+bitmapfonts = {
+	bitmapfont = {
+		name = "digital_7_18"
+		path = "gfx/fonts/digital_7_18"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "digital_7_20b"
+		path = "gfx/fonts/digital_7_20b"
+		color = 0xff43f0f4
+		textcolors = { RGB = { 67 240 244 } }
+	}
+
+	bitmapfont = {
+		name = "rajdhani_20"
+		path = "gfx/fonts/rajdhani_20"
+		color = 0xffffffff
+	}
+
+	bitmapfont = {
+		name = "rajdhani_22b"
+		path = "gfx/fonts/rajdhani_22b"
+		color = 0xffffffff
+	}
+}

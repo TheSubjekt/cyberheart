@@ -21,7 +21,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "country_view_advisor_entry"
 		position = { x = 0 y = -47 }
-		size = { width = 53 height = 53 }
+		size = { width = 93 height = 93 }
 		clipping = no
 
 		iconType = {
@@ -308,8 +308,8 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "countryofficercorpview"
-		position = { x=-606 y=78 }
-		show_position = { x=-6 y =78 }
+		position = { x = -606 y =107  }
+		show_position = { x=-8 y =107 }
 		show_animation_type = decelerated
 		hide_animation_type = accelerated
 		animation_time = 300

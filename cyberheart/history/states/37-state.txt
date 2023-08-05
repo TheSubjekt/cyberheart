@@ -1,0 +1,18 @@
+state={
+	id=37
+	name="STATE_37"
+	provinces={
+		1485 1547 3994 4491 4653 7012 7134 7202 7527 10029 10047 11927 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = { infrastructure = 1 }
+		victory_points = { 1547 1}#Charleston
+		victory_points = { 10047 1}#Grenfeld
+		victory_points = { 7527 1}#Columbia
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

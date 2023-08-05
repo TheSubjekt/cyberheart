@@ -1,0 +1,20 @@
+
+state={
+	id=50
+	name="STATE_50"
+	provinces={
+		1562 7517 9814 11757 11859 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = { infrastructure = 1 }
+		victory_points = { 9814 6}#L.A.
+		victory_points = { 11859 6}# Thousand Oaks
+		victory_points = { 11757 6}#Irvine
+		victory_points = { 1562 6}#San Diego
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

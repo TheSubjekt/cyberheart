@@ -1,0 +1,19 @@
+
+state={
+	id=27
+	name="STATE_27"
+	provinces={
+		1445 4402 4452 4988 6696 6974 7547 9727 10586 10727 12568 12709 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = { infrastructure = 1 }
+		victory_points = { 10727 1}#Louisville
+		victory_points = { 12709 1}#Lexington
+		victory_points = { 6974 3}#Frankfort
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,29 @@
+## This GUI doesn't show any info right now. But would be useful later down the line if we ever implement any unique GUI mechanics
+## Like Corporate Interest or Corruption.. Or we could just use it to show amount of battalions or air/navy with a localised variable
+##
+
+scripted_gui = {
+	cp_topbar_extended_info_1 = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "cp_topbar_extended_info_1_container"
+
+		visible = { always = yes }
+	}
+
+	cp_topbar_extended_info_2 = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "cp_topbar_extended_info_2_container"
+
+		visible = { always = yes }
+	}
+
+	cp_topbar_extended_info_3 = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "cp_topbar_extended_info_3_container"
+
+		visible = { always = yes }
+	}
+}

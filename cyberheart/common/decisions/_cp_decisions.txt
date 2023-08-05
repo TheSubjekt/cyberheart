@@ -1,0 +1,45 @@
+_cp_debug_decisions = {
+	debug_decision_1 = {
+		icon = form_nation
+
+		cost = 0
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {}
+	}
+	debug_decision_2 = {
+		icon = form_nation
+
+		fire_only_once = no
+
+		modifier = {
+			stability_weekly = 0.005
+		}
+
+		days_remove = 7
+		days_re_enable = 0
+
+		cost = 0
+	}
+	debug_decision_3 = {
+		icon = form_nation
+
+		fire_only_once = no
+
+		complete_effect = { country_event = cp_event.1 }
+	}
+	debug_decision_4 = {
+		icon = form_nation
+
+		fire_only_once = no
+
+		cost = 20
+
+		available = { always = no }
+
+		complete_effect = {  }
+	}
+}

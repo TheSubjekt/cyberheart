@@ -1,0 +1,20 @@
+state={
+	id=26
+	name="STATE_26"
+	provinces={
+		913 1758 1987 7615 7797 8083 10281 10615 10657 10824 12501 12670 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = { infrastructure = 1 }
+		victory_points = { 7797 3}#Memphis
+		victory_points = { 12501 4}#Nashville
+		victory_points = { 913 1}#Johnson City
+		victory_points = { 8085 1}#Greeneville
+		victory_points = { 10281 3}#Knoxville
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

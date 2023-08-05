@@ -1,0 +1,18 @@
+state={
+	id=21
+	name="STATE_21"
+	provinces={
+		1586 1678 1770 1831 4691 7306 7458 7539 9892 9910 10478 10666 11788 11971 12418 12646 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = { infrastructure = 1 }
+		victory_points = { 10478 1}#Davenport
+		victory_points = { 1770 1}#Des Moines
+		victory_points = { 10666 3}#Sioux City
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

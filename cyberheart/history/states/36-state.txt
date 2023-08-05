@@ -1,0 +1,20 @@
+state={
+	id=36
+	name="STATE_36"
+	provinces={
+		638 968 1433 1480 5090 7118 7583 7612 9949 9996 10394 10437 10465 10492 11975 12325 12384 12470 12498 
+	}
+	history={
+		owner = NSA
+		add_core_of = NSA
+		buildings = { infrastructure = 1 }
+		victory_points = { 10465 3}#Savannah
+		victory_points = { 7583 3}#Columbus
+		victory_points = { 7612 3}#Macon
+		victory_points = { 12384 3}#Atlanta
+		victory_points = { 638 1}#Plantation
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
