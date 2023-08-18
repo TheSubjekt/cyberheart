@@ -2,17 +2,34 @@
 state={
 	id=52
 	name="STATE_52"
-	provinces={
-		3513 4328 
-	}
+
 	history={
-		owner = WCS
-		add_core_of = WCS
-		buildings = { infrastructure = 1 }
-		victory_points = { 3513 6}#Portland
-		victory_points = { 4328 6}#Salem
+		owner = CND
+		add_core_of = CND
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			4342 1 
+		}
+		victory_points = {
+			1424 1 
+		}
+		victory_points = {
+			7379 1 
+		}
+		victory_points = {
+			12221 1 
+		}
+
 	}
-	manpower=10
+
+	provinces={
+		634 1282 1338 1424 1619 4285 4287 4342 4362 4432 7379 10247 12221 12289 
+	}
+	manpower=660000
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

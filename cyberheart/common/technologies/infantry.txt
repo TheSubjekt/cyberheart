@@ -4,16 +4,20 @@
 
 technologies = {
 
-	@TECH_YEAR_2040 = 1
-	@TECH_YEAR_2070 = 2
-	@TECH_YEAR_2073 = 4
-	@TECH_YEAR_2074 = 17
-	@TECH_YEAR_2075 = 10
-	@TECH_YEAR_2076 = 13
-	@TECH_YEAR_2077 = 16
-	@TECH_YEAR_2078 = 19
-	@TECH_YEAR_2079 = 22
-	@TECH_YEAR_2080 = 25
+	@TECH_YEAR_2045 = 1
+	@TECH_YEAR_2060 = 4
+	@TECH_YEAR_2068 = 7
+	@TECH_YEAR_2069 = 10
+	@TECH_YEAR_2070 = 13
+	@TECH_YEAR_2071 = 16
+	@TECH_YEAR_2072 = 19
+	@TECH_YEAR_2073 = 22
+	@TECH_YEAR_2074 = 25
+	@TECH_YEAR_2075 = 28
+	@TECH_YEAR_2076 = 31
+	@TECH_YEAR_2077 = 34
+	@TECH_YEAR_2079 = 37
+	@TECH_YEAR_2080 = 40
 
 	@TECH_CATEGORY_SUPPORT = 2
 	@TECH_CATEGORY_ARMAMENTS = 4
@@ -42,7 +46,7 @@ technologies = {
 		start_year = 2040
 		folder = {
 			name = infantry_folder
-			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2040 }
+			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2045 }
 		}
 		
 		categories = {
@@ -57,13 +61,18 @@ technologies = {
 	cp_infantry_equipment_tech_2 = {
 
 		enable_equipments = {
-			## ENABLE INFANTRY EQUIPMENT
+			infantry_equipment_2 
 		}
 
 		path = {
 			leads_to_tech = cp_infantry_equipment_tech_3
 			research_cost_coeff = 1
-		}		
+		}
+		
+		path = {
+			leads_to_tech = cp_debug_tech_1
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 1
 	    xp_research_type = army
@@ -73,7 +82,7 @@ technologies = {
 		start_year = 2073
 		folder = {
 			name = infantry_folder
-			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2073 }
+			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2060 }
 		}
 		
 		categories = {
@@ -84,6 +93,170 @@ technologies = {
 			factor = 5
 		}
 	}
+
+	cp_debug_tech_1 = {
+
+		category_light_infantry = {
+			soft_attack = 0.01
+		}	
+
+		path = {
+			leads_to_tech = cp_debug_tech_2
+			research_cost_coeff = 1
+		}		
+		
+		research_cost = 1
+	    xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 0.5
+
+		start_year = 2075
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = @TECH_YEAR_2068 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	cp_debug_tech_2 = {
+
+		category_light_infantry = {
+			soft_attack = 0.01
+		}	
+
+		path = {
+			leads_to_tech = cp_debug_tech_3
+			research_cost_coeff = 1
+		}	
+		
+		path = {
+			leads_to_tech = cp_debug_tech_4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+	    xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 0.5
+
+		start_year = 2075
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = @TECH_YEAR_2070 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	cp_debug_tech_3 = {
+
+		category_light_infantry = {
+			soft_attack = 0.01
+		}
+		
+		XOR = {
+			cp_debug_tech_4
+		}
+
+		path = {
+			leads_to_tech = cp_debug_tech_5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+	    xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 0.5
+
+		start_year = 2075
+		folder = {
+			name = infantry_folder
+			position = { x = 9 y = @TECH_YEAR_2071 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	cp_debug_tech_4 = {
+
+		category_light_infantry = {
+			soft_attack = 0.01
+		}	
+
+		XOR = {
+			cp_debug_tech_3
+		}
+
+		path = {
+			leads_to_tech = cp_debug_tech_5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+	    xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 0.5
+
+		start_year = 2075
+		folder = {
+			name = infantry_folder
+			position = { x = 11 y = @TECH_YEAR_2071 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	cp_debug_tech_5 = {
+
+		category_light_infantry = {
+			soft_attack = 0.01
+		}	
+
+		research_cost = 1
+	    xp_research_type = army
+		xp_boost_cost = 50
+		xp_research_bonus = 0.5
+
+		start_year = 2075
+		folder = {
+			name = infantry_folder
+			position = { x = 10 y = @TECH_YEAR_2072 }
+		}
+		
+		categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
 
 	cp_infantry_equipment_tech_3 = {
 
@@ -105,7 +278,7 @@ technologies = {
 		start_year = 2075
 		folder = {
 			name = infantry_folder
-			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2075 }
+			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2068 }
 		}
 		
 		categories = {
@@ -136,7 +309,7 @@ technologies = {
 		start_year = 2077
 		folder = {
 			name = infantry_folder
-			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2077 }
+			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2069 }
 		}
 		
 		categories = {
@@ -168,7 +341,7 @@ technologies = {
 		start_year = 2078
 		folder = {
 			name = infantry_folder
-			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2078 }
+			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2070 }
 		}
 		
 		categories = {
@@ -199,7 +372,7 @@ technologies = {
 		start_year = 2079
 		folder = {
 			name = infantry_folder
-			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2079 }
+			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2071 }
 		}
 		
 		categories = {
@@ -226,7 +399,7 @@ technologies = {
 		start_year = 2080
 		folder = {
 			name = infantry_folder
-			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2080 }
+			position = { x = @TECH_CATEGORY_ARMAMENTS y = @TECH_YEAR_2072 }
 		}
 		
 		categories = {

@@ -9,9 +9,9 @@ state={
 		add_core_of = NSA
 		buildings = { infrastructure = 1 }
 		victory_points = { 11830 3}#Springfield
-		victory_points = { 9832 1}#Quahog
+		#victory_points = { 9832 1}#Quahog
 	}
-	manpower=10
+	manpower=770000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

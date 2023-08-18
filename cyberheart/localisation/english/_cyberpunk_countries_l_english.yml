@@ -43,3 +43,48 @@
  MTN:0 "Montana"
  MTN_DEF:0 "Montana"
  MTN_ADJ:0 "Montana"
+
+ NUN:0 "Nunavut"
+ NUN_DEF:0 "Nunavut"
+ NUN_ADJ:0 "Nunavut"
+
+ CND:0 "Canada"
+ CND_DEF:0 "Canada"
+ CND_ADJ:0 "Canada"
+
+ MXC:0 "Mexico"
+ MEX_DEF:0 "Mexico"
+ MEX_ADJ:0 "Mexican"
+
+
+ YUC:0 "Yucatan"
+ YUC_DEF:0 "Yucatan"
+ YUC_ADJ:0 "Yucatan"
+
+ CIP:0 "Chiapas"
+ CIP_DEF:0 "Chiapas"
+ CIP_ADJ:0 "Chiapas"
+
+ OXC:0 "Oaxaca"
+ OXC_DEF:0 "Oaxaca"
+ OXC_ADJ:0 "Oaxaca"
+
+ SOC:0 "SoCal"
+ SOC_DEF:0 "Southern California"
+ SOC_ADJ:0 "Southern California"
+
+ UTH:0 "Utah"
+ UTH_DEF:0 "Utah"
+ UTH_ADJ:0 "Utah"
+
+ CT1:0 "Cartel 1"
+ CT1_DEF:0 "Cartel 1"
+ CT1_ADJ:0 "Cartel 1"
+
+ CT2:0 "Cartel 2"
+ CT2_DEF:0 "Cartel 2"
+ CT2_ADJ:0 "Cartel 2"
+
+ CT3:0 "Cartel 3"
+ CT3_DEF:0 "Cartel 3"
+ CT3_ADJ:0 "Cartel 3"

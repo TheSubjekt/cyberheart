@@ -11,7 +11,7 @@ state={
 		victory_points = { 1747 1}#Rapid City
 		victory_points = { 1836 3}#Pierre
 	}
-	manpower=10
+	manpower=800000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

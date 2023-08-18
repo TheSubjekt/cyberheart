@@ -3,10 +3,7 @@
 @prod_add_pos_x = 453
 @prod_nof_pos_x = 403
 
-
-
 guiTypes = {
-
 	containerWindowType = {
 		name = "countryproductionlineview"
 		position = { x = -606 y =107  }
@@ -98,7 +95,7 @@ guiTypes = {
 
 					buttonType = {
 						name = "oil_icon"
-						position = { x=0 y=2 }
+						position = { x = -50 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 1
 						#pdx_tooltip = "PRODUCTION_MATERIALS_OIL"
@@ -106,9 +103,9 @@ guiTypes = {
 
 					instantTextboxType = {
 						name = "oil_value"
-						position = { x = 31 y = 5 }
+						position = { x = -20 y = 8 }
 						textureFile = ""
-						font = "hoi_18mbs"
+						font = "rajdhani_20"
 						borderSize = {x = 0 y = 0}
 						text = "999"
 						maxWidth = 50
@@ -118,60 +115,58 @@ guiTypes = {
 					}
 
 					buttonType = {
-						name = "rubber_icon"
-						position = { x=70 y=2 }
-						spriteType = "GFX_resources_strip"
-						frame = 3
-						#pdx_tooltip = "PRODUCTION_MATERIALS_RUBBER"
-					}
-
-					instantTextboxType = {
-						name = "rubber_value"
-						position = { x = 101 y = 5 }
-						textureFile = ""
-						font = "hoi_18mbs"
-						borderSize = {x = 0 y = 0}
-						text = "999"
-						maxWidth = 50
-						maxHeight = 20
-						format = left
-						#pdx_tooltip = "PRODUCTION_MATERIALS_RUBBER"
-					}
-
-					buttonType = {
 						name = "steel_icon"
-						position = { x=140 y=2 }
+						position = { x = 10 y=2 }
 						spriteType = "GFX_resources_strip"
-						frame = 5
-						#pdx_tooltip = "PRODUCTION_MATERIALS_STEEL"
+						frame = 2
+						#pdx_tooltip = "PRODUCTION_MATERIALS_RUBBER"
 					}
 
 					instantTextboxType = {
 						name = "steel_value"
-						position = { x = 171 y = 5 }
+						position = { x = 40 y = 8 }
 						textureFile = ""
-						font = "hoi_18mbs"
+						font = "rajdhani_20"
 						borderSize = {x = 0 y = 0}
 						text = "999"
 						maxWidth = 50
 						maxHeight = 20
+						format = left
+						#pdx_tooltip = "PRODUCTION_MATERIALS_RUBBER"
+					}
+
+					buttonType = {
+						name = "alloys_icon"
+						position = { x = 70 y=2 }
+						spriteType = "GFX_resources_strip"
+						frame = 3
+						#pdx_tooltip = "PRODUCTION_MATERIALS_STEEL"
+					}
+
+					instantTextboxType = {
+						name = "alloys_value"
+						position = { x = 100 y = 8 }
+						textureFile = ""
+						font = "rajdhani_20"
+						borderSize = {x = 0 y = 0}
+						text = "999"
 						format = left
 						#pdx_tooltip = "PRODUCTION_MATERIALS_STEEL"
 					}
 
 					buttonType = {
-						name = "aluminium_icon"
-						position = { x=210 y=2 }
+						name = "uranium_icon"
+						position = { x = 130 y=2 }
 						spriteType = "GFX_resources_strip"
-						frame = 2
+						frame = 3
 						#pdx_tooltip = "PRODUCTION_MATERIALS_ALUMINIUM"
 					}
 
 					instantTextboxType = {
-						name = "aluminium_value"
-						position = { x = 241 y = 5 }
+						name = "uranium_value"
+						position = { x = 160 y = 8 }
 						textureFile = ""
-						font = "hoi_18mbs"
+						font = "rajdhani_20"
 						borderSize = {x = 0 y = 0}
 						text = "999"
 						maxWidth = 50
@@ -181,18 +176,18 @@ guiTypes = {
 					}
 
 					buttonType = {
-						name = "tungsten_icon"
-						position = { x=280 y=2 }
+						name = "components_icon"
+						position = { x = 190 y=2 }
 						spriteType = "GFX_resources_strip"
 						frame = 4
 						#pdx_tooltip = "PRODUCTION_MATERIALS_TUNGSTEN"
 					}
 
 					instantTextboxType = {
-						name = "tungsten_value"
-						position = { x = 309 y = 5 }
+						name = "components_value"
+						position = { x = 220 y = 8 }
 						textureFile = ""
-						font = "hoi_18mbs"
+						font = "rajdhani_20"
 						borderSize = {x = 0 y = 0}
 						text = "999"
 						maxWidth = 50
@@ -202,18 +197,81 @@ guiTypes = {
 					}
 
 					buttonType = {
-						name = "chromium_icon"
-						position = { x=350 y=2 }
+						name = "cyberware_icon"
+						position = { x = 250 y=2 }
 						spriteType = "GFX_resources_strip"
-						frame = 6
+						frame = 5
 						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
 					}
 
 					instantTextboxType = {
-						name = "chromium_value"
-						position = { x = 381 y = 5 }
+						name = "cyberware_value"
+						position = { x = 280 y = 8 }
 						textureFile = ""
-						font = "hoi_18mbs"
+						font = "rajdhani_20"
+						borderSize = {x = 0 y = 0}
+						text = "999"
+						maxWidth = 50
+						maxHeight = 20
+						format = left
+						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+					}
+
+					buttonType = {
+						name = "ceramics_icon"
+						position = { x = 310 y=2 }
+						spriteType = "GFX_resources_strip"
+						frame = 7
+						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+					}
+
+					instantTextboxType = {
+						name = "ceramics_value"
+						position = { x = 340 y = 8 }
+						textureFile = ""
+						font = "rajdhani_20"
+						borderSize = {x = 0 y = 0}
+						text = "999"
+						maxWidth = 50
+						maxHeight = 20
+						format = left
+						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+					}
+
+					buttonType = {
+						name = "synthetics_icon"
+						position = { x = 370 y=2 }
+						spriteType = "GFX_resources_strip"
+						frame = 8
+						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+					}
+
+					instantTextboxType = {
+						name = "synthetics_value"
+						position = { x = 400 y = 8 }
+						textureFile = ""
+						font = "rajdhani_20"
+						borderSize = {x = 0 y = 0}
+						text = "999"
+						maxWidth = 50
+						maxHeight = 20
+						format = left
+						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+					}
+
+					buttonType = {
+						name = "chooh2_icon"
+						position = { x = 430 y=2 }
+						spriteType = "GFX_chooh2_strip"
+						frame = 9
+						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+					}
+
+					instantTextboxType = {
+						name = "chooh2_value"
+						position = { x = 460 y = 8 }
+						textureFile = ""
+						font = "rajdhani_20"
 						borderSize = {x = 0 y = 0}
 						text = "999"
 						maxWidth = 50
@@ -1222,15 +1280,15 @@ guiTypes = {
 			}
 
 			iconType = {
-				name = "rubber_icon"
+				name = "steel_icon"
 				position = { x=58 y=2 }
 				spriteType = "GFX_resources_strip"
-				frame = 3
+				frame = 2
 				#pdx_tooltip = "PRODUCTION_MATERIALS_RUBBER"
 			}
 
 			buttonType = {
-				name = "rubber_checkbox"
+				name = "steel_checkbox"
 				position = { x = 80 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"
@@ -1238,15 +1296,15 @@ guiTypes = {
 			}
 
 			iconType = {
-				name = "steel_icon"
+				name = "alloys_icon"
 				position = { x=113 y=2 }
 				spriteType = "GFX_resources_strip"
-				frame = 5
+				frame = 3
 				#pdx_tooltip = "PRODUCTION_MATERIALS_STEEL"
 			}
 
 			buttonType = {
-				name = "steel_checkbox"
+				name = "alloys_checkbox"
 				position = { x = 138 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"
@@ -1254,15 +1312,15 @@ guiTypes = {
 			}
 
 			iconType = {
-				name = "aluminium_icon"
+				name = "uranium_icon"
 				position = { x=173 y=1 }
 				spriteType = "GFX_resources_strip"
-				frame = 2
+				frame = 4
 				#pdx_tooltip = "PRODUCTION_MATERIALS_ALUMINIUM"
 			}
 
 			buttonType = {
-				name = "aluminium_checkbox"
+				name = "uranium_checkbox"
 				position = { x = 195 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"
@@ -1270,15 +1328,15 @@ guiTypes = {
 			}
 
 			iconType = {
-				name = "tungsten_icon"
+				name = "components_icon"
 				position = { x=229 y=2 }
 				spriteType = "GFX_resources_strip"
-				frame = 4
+				frame = 5
 				#pdx_tooltip = "PRODUCTION_MATERIALS_TUNGSTEN"
 			}
 
 			buttonType = {
-				name = "tungsten_checkbox"
+				name = "components_checkbox"
 				position = { x = 253 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"
@@ -1286,7 +1344,7 @@ guiTypes = {
 			}
 
 			iconType = {
-				name = "chromium_icon"
+				name = "cyberware_icon"
 				position = { x=287 y=2 }
 				spriteType = "GFX_resources_strip"
 				frame = 6
@@ -1294,7 +1352,55 @@ guiTypes = {
 			}
 
 			buttonType = {
-				name = "chromium_checkbox"
+				name = "cyberware_checkbox"
+				position = { x = 311 y = 1 }
+				quadTextureSprite ="GFX_generic_checkbox"
+				Orientation = "UPPER_LEFT"
+				clicksound = click_checkbox
+			}
+			
+			iconType = {
+				name = "ceramics_icon"
+				position = { x=287 y=2 }
+				spriteType = "GFX_resources_strip"
+				frame = 7
+				#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+			}
+
+			buttonType = {
+				name = "ceramics_checkbox"
+				position = { x = 311 y = 1 }
+				quadTextureSprite ="GFX_generic_checkbox"
+				Orientation = "UPPER_LEFT"
+				clicksound = click_checkbox
+			}
+
+			iconType = {
+				name = "synthetics_icon"
+				position = { x=287 y=2 }
+				spriteType = "GFX_resources_strip"
+				frame = 8
+				#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+			}
+
+			buttonType = {
+				name = "synthetics_checkbox"
+				position = { x = 311 y = 1 }
+				quadTextureSprite ="GFX_generic_checkbox"
+				Orientation = "UPPER_LEFT"
+				clicksound = click_checkbox
+			}
+
+			iconType = {
+				name = "chooh2_icon"
+				position = { x=287 y=2 }
+				spriteType = "GFX_resources_strip"
+				frame = 9
+				#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+			}
+
+			buttonType = {
+				name = "chooh2_checkbox"
 				position = { x = 311 y = 1 }
 				quadTextureSprite ="GFX_generic_checkbox"
 				Orientation = "UPPER_LEFT"
@@ -1600,7 +1706,7 @@ guiTypes = {
 			position = { x = 462 y = 31 }
 			size = { width = 40 height = 50 }
 			slotsize = { width = 40 height = 24 }
-			max_slots_vertical = 3
+			max_slots_vertical = 4
 			max_slots_horizontal = 1
 			format = "UPPER_LEFT"
 		}
@@ -1901,7 +2007,7 @@ guiTypes = {
 			size = { width = 200 height = 50 }
 			slotsize = { width = 46 height = 24 }
 			max_slots_vertical = 1
-			max_slots_horizontal = 3
+			max_slots_horizontal = 4
 			format = "UPPER_LEFT"
 		}
 
@@ -2208,7 +2314,7 @@ guiTypes = {
 			name = "resource_icon"
 			position = { x=0 y=0 }
 			spriteType = "GFX_resources_strip"
-			scale = 0.8
+			scale = 0.9
 			alwaystransparent = yes
 		}
 

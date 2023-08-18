@@ -1,12 +1,137 @@
 ﻿l_english:
 
-  TECH_Y_1:0 "2040"
-	TECH_Y_2:0 "2070"
-	TECH_Y_3:0 "2073"
-	TECH_Y_4:0 "2074"
-	TECH_Y_5:0 "2075"
-	TECH_Y_6:0 "2076"
-	TECH_Y_7:0 "2077"
-	TECH_Y_8:0 "2078"
-	TECH_Y_9:0 "2079"
-	TECH_Y_10:0 "2080"
+  components_refinery: "Components Refinery"
+  cyberware_fabricators: "Cybernetics Fabricator"
+  ceramics_foundery: "Ceramics Manufactory"
+  synthetics_fabricator: "Synthetics Assembly-Plant"
+  chooh2_distillery: "CHOOH2 Refinery"
+  modifier_production_speed_components_refinery_factor: "§4Components Refinery§! construction speed"
+  modifier_production_speed_synthetics_fabricator_factor: "§4Synthetics Assembly-Plant§! construction speed"
+  modifier_production_speed_cyberware_fabricators_factor: "§4Cybernetics Fabricator§! construction speed"
+  modifier_production_speed_ceramics_foundery_factor: "§4Ceramics Manufactory§! construction speed"
+  modifier_production_speed_chooh2_distillery_factor: "§4CHOOH2 Refinery§! construction speed"
+
+	cp_industry_tech_1: "Mechanized Industy"
+  cp_industry_tech_1_desc: "The basics of any modern society is its productive capabilities.From simple hand tools and human labour to constructed machinery which performs simple operations all the way up to delicate operations."
+
+	cp_industry_tech_2: "Standardised Infrastructure Archetypes"
+  cp_industry_tech_2_desc: "With the effective digitalisation and storage of our industrial networks, we can augment our manufacturingh potential and spot glaring faults within mere seconds."
+
+	cp_industry_tech_3: "Simplified Shiplift Systems"
+  cp_industry_tech_3_desc: "By the usage of massive structural platforms which lifts naval vessels in synchrony will allow us to be much more effective in constructing and renovating Naval Dockyards."
+
+	cp_industry_tech_4:0 "Modularised Engineering"
+  cp_industry_tech_4_desc:0 "Streamlining the production of naval vessles into compartmentalised sections will halve the production requirements to construct vessels and undoubtedly increase the efficiency of our dockyards."
+
+	cp_industry_tech_5:0 "Mineral Purification"
+  cp_industry_tech_5_desc:0 "Optimising our process of refining extracted minerals will allow us to achieve a higher level of efficiency."
+
+	cp_industry_tech_6:0 "Mechanized Mining"
+  cp_industry_tech_6_desc:0 "Automating the mineral harvesting, and recovery phase of the mining process will allow for more efficient yields."
+
+	cp_industry_tech_7:0 "Thermal Reactors"
+  cp_industry_tech_7_desc:0 "Using thermal neutrons which are slowed with the usage of a neutron moderator component to slow down the colliding neutrons emitted by the fission reaction makes them more likely to be captured by the fuel."
+
+	cp_industry_tech_8:0 "Synthetic Fabricators"
+  cp_industry_tech_8_desc:0 "Synthetic materials can be fabricated by specialised industrial plants."
+
+	cp_industry_tech_9:0 "Geothermal Boreholes"
+  cp_industry_tech_9_desc:0 "Injecting fluids at high pressures deep within Earths crust will creature spontaneous fissures which we can use to extract once unobtainable wells of natural oil and gas."
+
+	cp_industry_tech_10:0 "Flexible Fuel Silos"
+  cp_industry_tech_10_desc:0 "Effective storage and containing of fuel will keep logistical constraints to a minimal. Whilst we cannot be certain all disbursement are for military purposes."
+
+	cp_industry_tech_11:0 "Cyberware Assemblers"
+  cp_industry_tech_11_desc:0 "Advanced industrial tools can be used to seamlessly fabricate Cyberware to be used by our military or members of government."
+
+	cp_industry_tech_12:0 "Component Synthesisers"
+  cp_industry_tech_12_desc:0 "Advanced, highly specialised components can be processed in assembly plants."
+
+	cp_industry_tech_13:0 "Coercive Cyberware Augmentations"
+  cp_industry_tech_13_desc:0 "Installing cyberware in our workforce through 'polite' persuasion will improve their strength and flexibility to perform laborious tasks. It'll also help shift the burden of salaries - charging our workers for the said installation of chrome."
+
+	cp_industry_tech_14:0 "Reclaimation Plants"
+  cp_industry_tech_14_desc:0 "Re-processing of materials will further the extent of the materials usefulness."
+
+	cp_industry_tech_15:0 "TODO"
+  cp_industry_tech_15_desc:0 "TODO"
+
+	cp_industry_tech_16:0 "TODO"
+  cp_industry_tech_16_desc:0 "TODO"
+
+	cp_industry_tech_17:0 "Division of Industry"
+  cp_industry_tech_17_desc:0 "By dividing our selected industries into highly specialized aspects we can increase the quality and effective output of goods."
+
+	cp_industry_tech_18:0 "Industries of Scale"
+  cp_industry_tech_18_desc:0 "By increasing the scale of operation, will costs of producing individual units decrease."
+
+	cp_industry_tech_19:0 "Replicator Assembly Lines"
+  cp_industry_tech_19_desc:0 "With pre-programmed design patterns, our assembly lines will be able to fabricate complex designs with ease."
+
+	cp_industry_tech_20:0 "Anti-Corporate Espionage Measures"
+  cp_industry_tech_20_desc:0 "With the strict procedure of counterintelligence measures we can effectively safeguard our industry from envious eyes."
+
+	cp_industry_tech_21:0 "Technician Drones"
+  cp_industry_tech_21_desc:0 "With the usage of automated drones to oversee production processes, will allow for more effective spotting and remedies of problems and issues."
+
+	cp_industry_tech_22:0 "TODO"
+  cp_industry_tech_22_desc:0 "TODO"
+
+	cp_industry_tech_23:0 "TODO"
+  cp_industry_tech_23_desc:0 "TODO"
+
+	cp_industry_tech_24:0 "TODO"
+  cp_industry_tech_24_desc:0 "TODO"
+
+	cp_industry_tech_25:0 "TODO"
+  cp_industry_tech_25_desc:0 "TODO"
+
+	cp_industry_tech_26:0 "Supply Nexuses"
+  cp_industry_tech_26_desc:0 "Instead of numerous smaller supply hubs, and establishing a series of supply nexuses should undoubtedly increase the efficiency of supplies being transported to our forces."
+
+	cp_industry_tech_27:0 "Improved Operational Logistics"
+  cp_industry_tech_27_desc:0 "Allowing a more flexible storage and distribution of supplies to our active forces will allow a greater amount of independence our logistics network will have. Allowing our forces to acquire whats deemed necessary for effective military engagements."
+
+	cp_industry_tech_28:0 "TODO"
+  cp_industry_tech_28_desc:0 "TODO"
+
+	cp_industry_tech_29:0 "TODO"
+  cp_industry_tech_29_desc:0 "TODO"
+
+	cp_industry_tech_30:0 "Mega-Buildings"
+  cp_industry_tech_30_desc:0 "We have the necessary resources and capabilities to construct soaring complexes which reach further into the sky than what could've been possibly concieved."
+
+  ## Sub-technology localisation for some odd reason does not work. So The title must be placed inside the _desc localization string itself to properly appear.
+
+  cp_industry_tech_2a: "Optimised Industrial Construction"
+  cp_industry_tech_2a_desc: "§tOptimised Industrial Construction§!\n\n§4By optimising our industrial workflow, and the addition of aggressive inventory management techniques will increase the the effective space of our districts.§!"
+
+	cp_industry_tech_4a:0 "Automated Drydock Mainframes"
+  cp_industry_tech_4a_desc:0 "§tAutomated Drydock Mainframes§!\n\n§4By offloading the bulk of production to highly capable and competent automated robotics we can increase the productivity of our naval dockyards. However without a effective human workforce, work by robotics will need to be constantly supervised to meet quality assurances.§!"
+
+	cp_industry_tech_5a:0 "Hydrometallurgy"
+  cp_industry_tech_5a_desc:0 "§tHydrometallurgy§!\n\n§4Using aqueous solvents to recover metal from ores or residual material will allow us to recouperate much more ore than previously believed. The process is arduous at best, and requires numerous sub-facilities and complexes to run efficiently.§!"
+
+	cp_industry_tech_9a:0 "Hydraulic Fracturing"
+  cp_industry_tech_9a_desc:0 "§tHydraulic Fracturing§!\n\n§4By the usage of Hydraulic Fracturing, and aggressive fracking techniques we can tap into the mantle of earth itself. However this runs the risk of increased seismic activity along previously unknown fault lines.§!"
+
+	cp_industry_tech_13a:0 "13a"
+  cp_industry_tech_13a_desc:0 "13a"
+
+	cp_industry_tech_16a:0 "Self-Replicating Automation"
+  cp_industry_tech_16a_desc:0 "TBD"
+
+	cp_industry_tech_19a:0 "19a"
+  cp_industry_tech_19a_desc:0 "19a"
+
+	cp_industry_tech_20a:0 "20a"
+  cp_industry_tech_20a_desc:0 "20a"
+
+	cp_industry_tech_30a:0 "21a"
+  cp_industry_tech_30a_desc:0 "21a"
+
+	cp_industry_tech_24a:0 "24a"
+  cp_industry_tech_24a_desc:0 "24a"
+
+	cp_industry_tech_30a:0 "Modularised Complexes"
+  cp_industry_tech_30a_desc:0 "§tModularised Complexes§!\n\n§4By proper and extensive planning and remodelling of our existing industries, we can modify our design systems for easy factory conversion.§!"

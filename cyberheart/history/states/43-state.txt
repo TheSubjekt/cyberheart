@@ -11,7 +11,7 @@ state={
 		buildings = { infrastructure = 1 }
 		victory_points = { 4445 3}#Montpellier
 	}
-	manpower=10
+	manpower=2150000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

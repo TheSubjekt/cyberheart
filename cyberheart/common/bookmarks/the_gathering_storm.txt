@@ -2,13 +2,21 @@ bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-		date = 2077.1.1.12
+		date = 2068.1.1.12
 		picture = "GFX_select_date_1936"
 		default_country = "NSA"
 		default = yes
 		
 		"NSA"={
-			history = "NSA_CP_2077_DESC"
+			history = "NSA_CP_2068_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"CND"={
+			history = "CAN_CP_2068_DESC"
 			ideology = democratic
 			ideas = {
 			}

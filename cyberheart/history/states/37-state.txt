@@ -12,7 +12,7 @@ state={
 		victory_points = { 10047 1}#Grenfeld
 		victory_points = { 7527 1}#Columbia
 	}
-	manpower=10
+	manpower=2556000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

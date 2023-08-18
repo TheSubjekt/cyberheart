@@ -1,0 +1,22 @@
+
+state={
+	id=61
+	name="STATE_61"
+
+	history={
+		owner = CND
+		add_core_of = CND
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 14392 1 } ## Reindeer Station
+	}
+
+	provinces={
+		4272 7696 7901 8653 10703 13075 14385 14387 14389 14392 
+	}
+	manpower=64000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

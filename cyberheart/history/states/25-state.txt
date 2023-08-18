@@ -11,7 +11,7 @@ state={
 		victory_points = { 4565 1}#Jackson
 		victory_points = { 10410 1}#Issaquena
 	}
-	manpower=10
+	manpower=1450000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

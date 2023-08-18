@@ -1,0 +1,23 @@
+
+state={
+	id=70
+	name="STATE_70"
+
+	history={
+		owner = YUC
+		add_core_of = YUC
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1164 3987 4170 4200 4904 
+	}
+	manpower=665000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

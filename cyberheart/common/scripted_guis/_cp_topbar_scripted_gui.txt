@@ -1,6 +1,5 @@
 ## This GUI doesn't show any info right now. But would be useful later down the line if we ever implement any unique GUI mechanics
 ## Like Corporate Interest or Corruption.. Or we could just use it to show amount of battalions or air/navy with a localised variable
-##
 
 scripted_gui = {
 	cp_topbar_extended_info_1 = {

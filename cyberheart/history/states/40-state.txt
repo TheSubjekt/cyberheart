@@ -13,7 +13,7 @@ state={
 		victory_points = { 6929 1}#New Greenspring
 		victory_points = { 6984 3}#Baltimore
 	}
-	manpower=10
+	manpower=8800000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

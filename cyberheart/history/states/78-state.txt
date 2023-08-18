@@ -1,0 +1,23 @@
+
+state={
+	id=78
+	name="STATE_78"
+
+	history={
+		owner = MXC
+		add_core_of = MXC
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2083 5015 5021 7215 9863 9976 10769 10870 11804 12051 12721 12740 12835 13088 
+	}
+	manpower=8500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

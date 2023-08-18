@@ -11,7 +11,7 @@ state={
 		victory_points = { 908 1}#Springfield
 		victory_points = { 3906 6}#Boston Megaplex
 	}
-	manpower=10
+	manpower=3890000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

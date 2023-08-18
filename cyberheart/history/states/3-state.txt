@@ -11,10 +11,10 @@ state={
 		victory_points = { 10157 6} # Seattle
 		victory_points = { 7315 3} # Tacoma
 		victory_points = { 7386 3} # Olympia
-		victory_points = { 1690 1} # Ruins of Spokane
-		victory_points = { 4747 1} # Ruins of Hanford
+		#victory_points = { 1690 1} # Ruins of Spokane
+		#victory_points = { 4747 1} # Ruins of Hanford
 	}
-	manpower=10
+	manpower=8800000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

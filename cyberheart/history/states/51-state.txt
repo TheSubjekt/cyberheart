@@ -2,17 +2,28 @@
 state={
 	id=51
 	name="STATE_51"
-	provinces={
-		823 941 1651 3784 4518 4657 4727 6881 7667 7986 9855 9911 10387 10483 11763 11795 11876 12303 12374 14379 
-	}
+
 	history={
-		owner = NSA
-		add_core_of = NSA 
-		buildings = { infrastructure = 1 }
-		victory_points = { 941 1 } # Ruins of Bakersfield
-		victory_points = { 12303 1 } # Palm Springs
+		owner = SOC
+		add_core_of = SOC
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			12303 1 
+		}
+ 		victory_points ={ 9855 6 } #L.A.
+ 		victory_points ={ 11859 3} #Thousand Oaks
+ 		victory_points ={ 11757 3} #Irvine
+ 		victory_points ={ 1562 3} #San Diego
+
 	}
-	manpower=10
+
+	provinces={
+		823 941 1562 1651 3784 4518 4657 4727 6881 7517 7667 7986 9814 9855 9911 10387 10483 11757 11763 11795 11859 11876 12303 12374 14379 
+	}
+	manpower=16300000
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

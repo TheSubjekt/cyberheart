@@ -1,0 +1,23 @@
+
+state={
+	id=72
+	name="STATE_72"
+
+	history={
+		owner = CIP
+		add_core_of = CIP
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2021 7148 12867 
+	}
+	manpower=1650000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

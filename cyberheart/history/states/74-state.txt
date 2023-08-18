@@ -1,0 +1,15 @@
+state={
+	id=74
+	name="STATE_74"
+	provinces={
+		1037 8236 10061 10773 12712 
+	}
+	history={
+		owner = OXC
+		add_core_of = OXC
+		buildings = { infrastructure = 1 }
+	}
+	manpower=2100000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

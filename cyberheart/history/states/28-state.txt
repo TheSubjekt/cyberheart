@@ -11,7 +11,7 @@ state={
 		victory_points = { 12697 3}#Springfield
 		victory_points = { 9450 1}#Chicago Port
 	}
-	manpower=10
+	manpower=3100000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

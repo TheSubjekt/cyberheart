@@ -14,7 +14,7 @@ state={
 		victory_points = { 12384 3}#Atlanta
 		victory_points = { 638 1}#Plantation
 	}
-	manpower=10
+	manpower=2650000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

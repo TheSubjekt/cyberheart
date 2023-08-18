@@ -11,7 +11,7 @@ state={
 		victory_points = { 12566 3}#Bismarck
 		victory_points = { 3719 1}#Fargo
 	}
-	manpower=10
+	manpower=710000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

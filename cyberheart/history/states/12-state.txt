@@ -12,7 +12,7 @@ state={
 		victory_points = { 1851 1}#Billings
 		victory_points = { 1767 1}#Grand Prairie
 	}
-	manpower=10
+	manpower=1100000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

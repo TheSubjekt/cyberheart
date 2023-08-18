@@ -11,7 +11,7 @@ state={
 		victory_points = { 9850 3}#Hartford
 		victory_points = { 9847 1}#New Haven
 	}
-	manpower=10
+	manpower=1010000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

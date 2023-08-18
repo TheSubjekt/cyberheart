@@ -1,0 +1,22 @@
+﻿l_english:
+ cp_corporate_interests_corporations_index_title:0 "Corporations"
+ cp_corporate_interests_general_view_title:0 "General View"
+ cp_corporate_interest_dilemmas_title:0 "Dilemmas"
+
+ CI_arasaka_current_value:0 "Current value is §Y[?CI_arasaka]§!"
+ CorporateArasaka_current_value:0 "Current value is §Y[?CorporateArasaka]§!"
+
+ corporationID.1:0 "[?CorporateNationalised]     Nationalized"
+ corporationID.2:0 "[?CorporateCorporatised]     Minor Corps"
+ corporationID.3:0 "[?CorporateArasaka]     Arasaka"
+ corporationID.4:0 "[?CorporateMilitech]     Militech"
+ corporationID.5:0 "[?CorporatePetrochem]     Petrochem"
+ corporationID.6:0 "[?CorporateZetatech]     Zetatech"
+ corporationID.7:0 "[?CorporateMicrotech]     Microtech"
+ corporationID.8:0 "[?CorporateDynalar_Technologies]     Dynalar Technologies"
+ corporationID.9:0 "[?CorporateRocklin_Augments]     Rocklin Augments"
+ corporationID.10:0 "[?CorporateLazarus]     Lazarus"
+ corporationID.11:0 "[?CorporateAsukaga_Finch]     Asukaga Finch"
+ corporationID.12:0 "[?CorporateIllegitimate]     Organized Crime"
+
+

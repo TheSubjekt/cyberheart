@@ -11,7 +11,7 @@ state={
 		victory_points = { 7462 1}#Bangor
 		victory_points = { 3732 3}#Augusta
 	}
-	manpower=10
+	manpower=910000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

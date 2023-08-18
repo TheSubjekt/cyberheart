@@ -1,0 +1,56 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_pie_chart_segment_nationalised"
+		texturefile = "gfx/interface/corporate/pie_segment/pie_chart_segment_nationalized.dds"
+	}
+	SpriteType = {
+		name = "GFX_pie_chart_segment_corporatised"
+		texturefile = "gfx/interface/corporate/pie_segment/pie_chart_segment_corporatized.dds"
+	}
+	SpriteType = {
+		name = "GFX_pie_chart_segment_arasaka"
+		texturefile = "gfx/interface/corporate/pie_segment/pie_chart_segment_arasaka.dds"
+	}
+	SpriteType = {
+		name = "GFX_pie_chart_segment_militech"
+		texturefile = "gfx/interface/corporate/pie_segment/pie_chart_segment_militech.dds"
+	}
+	SpriteType = {
+		name = "GFX_pie_chart_segment_petrochem"
+		texturefile = "gfx/interface/corporate/pie_segment/pie_chart_segment_petrochem.dds"
+	}
+	SpriteType = {
+		name = "GFX_pie_chart_segment_zetatech"
+		texturefile = "gfx/interface/corporate/pie_segment/pie_chart_segment_zetatech.dds"
+	}
+	SpriteType = {
+		name = "GFX_pie_chart_segment_microtech"
+		texturefile = "gfx/interface/corporate/pie_segment/pie_chart_segment_microtech.dds"
+	}
+	SpriteType = {
+		name = "GFX_pie_chart_segment_dynalar_technologies"
+		texturefile = "gfx/interface/corporate/pie_segment/pie_chart_segment_dynalar_technologies.dds"
+	}
+	SpriteType = {
+		name = "GFX_pie_chart_segment_rocklin_augments"
+		texturefile = "gfx/interface/corporate/pie_segment/pie_chart_segment_rocklin_augments.dds"
+	}
+	SpriteType = {
+		name = "GFX_pie_chart_segment_lazarus"
+		texturefile = "gfx/interface/corporate/pie_segment/pie_chart_segment_lazarus.dds"
+	}
+	SpriteType = {
+		name = "GFX_pie_chart_segment_asukaga_finch"
+		texturefile = "gfx/interface/corporate/pie_segment/pie_chart_segment_asukaga_finch.dds"
+	}
+	SpriteType = {
+		name = "GFX_pie_chart_segment_illegitimate"
+		texturefile = "gfx/interface/corporate/pie_segment/pie_chart_segment_illegitimate.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_corporate_interest_button"
+		texturefile = "gfx/interface/corporate/corporate_interest_button.dds"
+		noOfFrames = 2
+	}
+}

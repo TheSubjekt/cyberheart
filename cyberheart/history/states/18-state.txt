@@ -8,11 +8,11 @@ state={
 		owner = NSA
 		add_core_of = NSA
 		buildings = { infrastructure = 1 }
-		victory_points = { 12401 1}#Ruins of Shreveport
+		#victory_points = { 12401 1}#Ruins of Shreveport
 		victory_points = { 12398 3}#New Orleans
 		victory_points = { 1453 3}#Baton Rouge
 	}
-	manpower=10
+	manpower=2600000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

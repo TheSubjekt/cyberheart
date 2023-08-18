@@ -1,2 +1,1190 @@
+#!gfx:interface\countrytechtreeview.gui
+#!gfx:interface\_cyberpunk_technology.gfx
+## Code above is for VSC HOI4 utility. pls leave ty
+
 technologies = {
+	cp_industry_tech_1 = {
+
+		production_factory_efficiency_gain_factor = 0.1
+
+		path = {
+			leads_to_tech = cp_industry_tech_2
+			research_cost_coeff = 1
+		}	
+		
+		path = {
+			leads_to_tech = cp_industry_tech_8
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cp_industry_tech_13
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 9 y = 7 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_2 = {
+		global_building_slots_factor = 0.1
+
+		sub_technologies = { cp_industry_tech_2a }
+
+		path = {
+			leads_to_tech = cp_industry_tech_3
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = cp_industry_tech_5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 11 y = 5 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+	}
+
+	cp_industry_tech_2a = {	
+		desc = cp_industry_tech_2a_desc
+
+		production_lack_of_resource_penalty_factor = -0.2
+		local_resources_factor = -0.1 
+		global_building_slots_factor = 0.15
+		industry_free_repair_factor = 0.1
+
+		on_research_complete = {
+            random_owned_controlled_state = { 
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = no
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = { 
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = no
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = { 
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = no
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+        }
+		
+		research_cost = 2
+		start_year = 2040
+
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	cp_industry_tech_3 = {
+
+		production_speed_dockyard_factor = 0.1 
+
+		path = {
+			leads_to_tech = cp_industry_tech_4
+			research_cost_coeff = 1
+		}		
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 13 y = 3 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_4 = {	
+
+		industrial_capacity_dockyard = 0.1
+
+		sub_technologies = {
+			cp_industry_tech_4a
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 13 y = 1 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_4a = {	
+		desc = cp_industry_tech_4a_desc
+
+		repair_speed_factor = -0.1
+		navy_max_range_factor = -0.1
+
+		industrial_capacity_dockyard = 0.1
+		
+		research_cost = 2
+		start_year = 2040
+
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_5 = {	
+
+		on_research_complete = {
+            random_owned_controlled_state = { 
+				add_resource = { 
+					type = steel
+					amount = 8
+				} 
+				add_resource = { 
+					type = alloys 
+					amount = 6
+				} 
+				add_resource = { 
+					type = uranium
+					amount = 4
+				} 
+			}
+        }
+
+		path = {
+			leads_to_tech = cp_industry_tech_6
+			research_cost_coeff = 1
+		}
+
+		sub_technologies = {
+			cp_industry_tech_5a
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 13 y = 7 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_5a = {	
+		desc = cp_industry_tech_5a_desc
+
+		on_research_complete = {
+            random_owned_controlled_state = { 
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = -1
+				add_resource = { 
+					type = steel
+					amount = 8
+				} 
+			}
+			random_owned_controlled_state = { 
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = -1
+				add_resource = { 
+					type = alloys 
+					amount = 8
+				} 
+			}
+			random_owned_controlled_state = { 
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = -1
+				add_resource = { 
+					type = uranium
+					amount = 8
+				} 
+			}
+        }
+		
+		research_cost = 2
+		start_year = 2040
+
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_6 = {	
+
+		local_resources_factor = 0.1
+
+		path = {
+			leads_to_tech = cp_industry_tech_7
+			research_cost_coeff = 1
+		}	
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 15 y = 5 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_7 = {	
+		
+		production_speed_nuclear_reactor_factor = 0.1
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 17 y = 5 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_8 = {
+
+		enable_building = {
+            building = synthetics_fabricator
+            level = 2
+        }
+		
+		production_speed_synthetics_fabricator_factor = 0.1
+
+        on_research_complete = {
+			modify_building_resources = {
+    			building = synthetics_fabricator
+    			resource = synthetics
+    			amount = 2
+			}
+		}
+
+		path = {
+			leads_to_tech = cp_industry_tech_9
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 11 y = 9 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	cp_industry_tech_9 = {
+
+		base_fuel_gain_factor = 0.1
+
+		sub_technologies = {
+			cp_industry_tech_9a
+		}
+
+		path = {
+			leads_to_tech = cp_industry_tech_10
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cp_industry_tech_11
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 13 y = 11 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_9a = {	
+		desc = cp_industry_tech_9a_desc
+
+		global_building_slots_factor = -0.1
+		supply_combat_penalties_on_core_factor = -0.1
+
+		base_fuel_gain_factor = 0.2
+
+		on_research_complete = {
+            add_stability = -0.1
+        }
+		
+		research_cost = 2
+		start_year = 2040
+
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_10 = {
+
+		army_fuel_consumption_factor = -0.1
+
+		path = {
+			leads_to_tech = cp_industry_tech_10
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 13 y = 13 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_11 = {
+
+		enable_building = {
+            building = cyberware_fabricators
+            level = 2
+        }
+		
+		production_speed_cyberware_fabricators_factor = 0.1
+
+        on_research_complete = {
+			modify_building_resources = {
+    			building = cyberware_fabricators
+    			resource = cyberware
+    			amount = 2
+			}
+		}
+
+		path = {
+			leads_to_tech = cp_industry_tech_12
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 15 y = 9 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_12 = {
+
+		enable_building = {
+            building = components_refinery
+            level = 2
+        }
+		
+		production_speed_components_refinery_factor = 0.1
+
+        on_research_complete = {
+			modify_building_resources = {
+    			building = components_refinery
+    			resource = components
+    			amount = 2
+			}
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 17 y = 9 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_13 = {
+
+		production_factory_max_efficiency_factor = 0.1
+
+		sub_technologies = {
+			cp_industry_tech_13a
+		}
+
+		path = {
+			leads_to_tech = cp_industry_tech_14
+			research_cost_coeff = 1
+		}	
+		
+		path = {
+			leads_to_tech = cp_industry_tech_20
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cp_industry_tech_23
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cp_industry_tech_25
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 5 y = 7 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_13a = {
+		desc = cp_industry_tech_13a_desc
+
+		line_change_production_efficiency_factor = -0.1
+		production_factory_max_efficiency_factor = -0.1
+		production_factory_efficiency_gain_factor = 0.15
+
+		research_cost = 2
+
+		start_year = 2040
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_14 = {
+
+		production_lack_of_resource_penalty_factor = -0.1 
+
+		path = {
+			leads_to_tech = cp_industry_tech_15
+			research_cost_coeff = 1
+		}	
+		
+		path = {
+			leads_to_tech = cp_industry_tech_17
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cp_industry_tech_18
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 7 y = 5 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+	
+	cp_industry_tech_15 = {
+
+		line_change_production_efficiency_factor = 0.1
+
+		path = {
+			leads_to_tech = cp_industry_tech_16
+			research_cost_coeff = 1
+		}		
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 5 y = 3 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_16 = {	
+		
+		production_factory_start_efficiency_factor = 0.1
+
+		sub_technologies = {
+			cp_industry_tech_16a
+		}
+
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 5 y = 1 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_16a = {	
+		desc = cp_industry_tech_16a_desc
+
+		monthly_population = -0.1
+		conscription_factor = -0.05
+		global_building_slots_factor = 0.1
+
+		on_research_complete = {	
+            random_owned_controlled_state = { 
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = { 
+				add_extra_state_shared_building_slots = 1
+			}
+			random_owned_controlled_state = { 
+				add_extra_state_shared_building_slots = 1
+			}
+        }
+		
+		research_cost = 2
+		start_year = 2040
+
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_17 = {
+
+		production_factory_efficiency_gain_factor = 0.1
+
+		XOR = { cp_industry_tech_18 }
+
+		path = {
+			leads_to_tech = cp_industry_tech_19
+			research_cost_coeff = 1
+		}	
+		
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 8 y = 3 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_18 = {
+
+		production_factory_max_efficiency_factor = 0.1
+
+		XOR = { cp_industry_tech_17 }
+
+		path = {
+			leads_to_tech = cp_industry_tech_19
+			research_cost_coeff = 1
+		}	
+		
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 10 y = 3 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_19 = {
+		industrial_capacity_factory = 0.1
+		
+		research_cost = 2
+
+		sub_technologies = {
+			cp_industry_tech_19a
+		}
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 9 y = 1 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_19a = {
+		desc = cp_industry_tech_19a_desc
+
+		industrial_capacity_factory = 0.1
+		conscription_factor = -0.05
+		industry_free_repair_factor = -0.15
+		
+		research_cost = 2
+
+		start_year = 2040
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_20 = {
+
+		industry_air_damage_factor = -0.1
+
+		sub_technologies = {
+			cp_industry_tech_20a
+		}
+
+		path = {
+			leads_to_tech = cp_industry_tech_21
+			research_cost_coeff = 1
+		}	
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 3 y = 5 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_20a = {
+		desc = cp_industry_tech_20a_desc
+
+		civilian_intel_to_others = -10
+		industry_air_damage_factor = -0.1
+		industrial_capacity_factory = -0.1 
+		production_speed_arms_factory_factor = -0.1 
+		
+		research_cost = 2
+
+		start_year = 2040
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_21 = {
+
+		industry_repair_factor = 0.1
+
+		sub_technologies = {
+			cp_industry_tech_21a
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 1 y = 5 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_21a = {
+		desc = cp_industry_tech_21a_desc
+
+		production_speed_industrial_complex_factor = 0.05
+		production_speed_arms_factory_factor = 0.05 
+		conversion_cost_mil_to_civ_factor = -0.2
+		conversion_cost_civ_to_mil_factor = -0.2
+		
+		research_cost = 2
+
+		start_year = 2040
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_23 = {
+
+		license_tech_difference_speed = 0.1
+
+		path = {
+			leads_to_tech = cp_industry_tech_24
+			research_cost_coeff = 1
+		}	
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 3 y = 9 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_24 = {
+
+		equipment_capture_factor = 0.1
+
+		sub_technologies = {
+			cp_industry_tech_24a
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 1 y = 9 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_24a = {
+		desc = cp_industry_tech_24a_desc
+
+		research_speed_factor = -0.05
+		equipment_capture_factor = 0.1
+		land_equipment_upgrade_xp_cost = -0.20
+		air_equipment_upgrade_xp_cost = -0.20
+		
+		research_cost = 2
+
+		start_year = 2040
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_25 = {
+
+		production_speed_infrastructure_factor = 0.1
+
+		path = {
+			leads_to_tech = cp_industry_tech_26
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cp_industry_tech_28
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cp_industry_tech_29
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 7 y = 9 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_26 = {
+
+		supply_node_range = 0.1
+
+		path = {
+			leads_to_tech = cp_industry_tech_27
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 5 y = 11 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_27 = {
+
+		supply_factor = 0.1
+
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 5 y = 13 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_28 = {
+
+		production_speed_industrial_complex_factor = 0.1
+
+		XOR = { cp_industry_tech_29 }
+
+		path = {
+			leads_to_tech = cp_industry_tech_30
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 8 y = 11 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_29 = {
+
+		production_speed_arms_factory_factor = 0.1 
+
+		XOR = { cp_industry_tech_28 }
+
+		path = {
+			leads_to_tech = cp_industry_tech_30
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 10 y = 11 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_30 = {
+
+		production_speed_buildings_factor = 0.1
+
+		path = {
+			leads_to_tech = cp_industry_tech_30
+			research_cost_coeff = 1
+		}
+
+		sub_technologies = {
+			cp_industry_tech_30a
+		}
+
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "industry_folder"
+			position = { x = 9 y = 13 }
+		}
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_industry_tech_30a = {
+		desc = cp_industry_tech_30a_desc
+		
+		production_speed_buildings_factor = 0.1
+		global_building_slots_factor = -0.1
+		conversion_cost_mil_to_civ_factor = 0.15
+		conversion_cost_civ_to_mil_factor = 0.15
+		
+		research_cost = 2
+
+		start_year = 2040
+		
+		categories = {
+			industry
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
 }

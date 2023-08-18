@@ -3,7 +3,7 @@ state={
 	id=2
 	name="STATE_2"
 	provinces={
-		505 528 1414 3471 4274 4347 4380 4826 7398 7721 7865 10151 10183 10305 10625 10687 11495 11733 12183 12211 12281 12553 
+		505 528 1414 3471 4274 4347 4380 4826 7398 7721 7865 10151 10183 10305 10625 10687 11495 11733 12183 12211 12281 12553 3513 4328 
 	}
 	history={
 		owner = WCS
@@ -13,8 +13,10 @@ state={
 		victory_points = { 3471 1} #Ashland
 		victory_points = { 4347 3} #Klamath Falls
 		victory_points = { 7865 1} #Horse Heaven
+		victory_points = { 3513 6}#Portland
+		victory_points = { 4328 6}#Salem
 	}
-	manpower=10
+	manpower=3400000
 	buildings_max_level_factor=1.000
 	local_supplies=0.000
 	state_category=rural

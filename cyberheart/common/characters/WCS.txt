@@ -1,0 +1,17 @@
+characters={
+	WCS_jonathan_stoneedge = {
+		name = WCS_jonathan_stoneedge
+		portraits = {
+			army = {
+				large = "gfx/leaders/WCS/WCS_jonathan_stoneedge.dds"
+			}
+		}
+		country_leader={
+			ideology = conservatism
+			traits = {  }
+			expire="3000.1.1.1"
+			id = -1
+			desc = "WCS_lucius_rhyne_desc"
+		}
+	}
+}

@@ -13,7 +13,7 @@ state={
 		victory_points = { 7892 1}#Topeka
 		#victory_points = {}#Hydropolis
 	}
-	manpower=10
+	manpower=1900000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

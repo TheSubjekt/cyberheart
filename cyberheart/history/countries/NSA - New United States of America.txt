@@ -1,4 +1,4 @@
-capital = 6
+capital = 40
 
 # Starting tech
 set_technology = {
@@ -13,5 +13,38 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 100
+	democratic = 78
+	fascism = 20
+	communism = 2
 }
+
+#add_to_variable = { CI_nationalised = 30 }
+#add_to_variable = { CI_corporatised = 15 }
+#add_to_variable = { CI_arasaka = 5 }
+#add_to_variable = { CI_militech = 20 }
+#add_to_variable = { CI_petrochem = 10 }
+#add_to_variable = { CI_zetatech = 5 }
+#add_to_variable = { CI_microtech = 5 }
+#add_to_variable = { CI_dynalar_technologies = 5 }
+#add_to_variable = { CI_rocklin_augments = 5 }
+#add_to_variable = { CI_lazarus = 10 }
+#add_to_variable = { CI_asukaga_finch = 2 }
+#add_to_variable = { CI_illegitimate = 3 }
+
+set_variable = { CorporateNationalised = 30 }
+set_variable = { CorporateCorporatised = 10 }
+set_variable = { CorporateArasaka = 2 }
+set_variable = { CorporateMilitech = 16 }
+set_variable = { CorporatePetrochem = 8 }
+set_variable = { CorporateZetatech = 6 }
+set_variable = { CorporateMicrotech = 5 }
+set_variable = { CorporateDynalar_Technologies = 5 }
+set_variable = { CorporateRocklin_Augments = 5 }
+set_variable = { CorporateLazarus = 10 }
+set_variable = { CorporateAsukaga_Finch = 3 }
+set_variable = { CorporateIllegitimate = 2 }
+
+recruit_character = NSA_rosalind_myers
+recruit_character = NSA_elizabeth_kress
+
+

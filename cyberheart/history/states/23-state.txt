@@ -8,17 +8,17 @@ state={
 		owner = NSA
 		add_core_of = NSA
 		buildings = { infrastructure = 1 }
-		victory_points = { 10380 1}#Ruins of Pensacola
+		#victory_points = { 10380 1}#Ruins of Pensacola
 		victory_points = { 1556 3}#Tallahassee
 		victory_points = { 12439 1}#Daytona Beach
-		victory_points = { 7388 1}#Ruins of Tampa
+		##victory_points = { 7388 1}#Ruins of Tampa
 		victory_points = { 12752 1}#Ruins of St. Petersburg
 		victory_points = { 1843 3}#Miami
 		victory_points = { 9834 3}#Atlantis
 		victory_points = { 10489 3}#W Palm Beach
 		victory_points = { 12381 3}#Jacksonvile
 	}
-	manpower=10
+	manpower=8900000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

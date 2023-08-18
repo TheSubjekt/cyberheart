@@ -12,7 +12,7 @@ state={
 		victory_points = { 1441 3}#Jefferson City
 		victory_points = { 10370 1}#Springfield
 	}
-	manpower=10
+	manpower=3150000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

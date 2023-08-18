@@ -11,7 +11,7 @@ state={
 		victory_points = { 4723 3}#Cheyenne
 		victory_points = { 4820 1}#Thunder Basin
 	}
-	manpower=10
+	manpower=400000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

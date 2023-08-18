@@ -12,7 +12,7 @@ state={
 		victory_points = { 12250 1}#Duluth
 		victory_points = { 4807 6}#Minneapolis/St.Paul Plex
 	}
-	manpower=10
+	manpower=2390000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

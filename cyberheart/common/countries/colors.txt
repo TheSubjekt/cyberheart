@@ -52,3 +52,58 @@ MTN = {
 	color = rgb { 60 59 110 }
 	color_ui = rgb { 60 59 110 }
 }
+
+CND = {
+	color = rgb { 233  59  59 }
+	color_ui = rgb { 233  59  59 }
+}
+
+NUN = {
+	color = rgb { 254  213  4 }
+	color_ui = rgb { 254  213  4 }
+}
+
+MXC = {
+	color = rgb { 130 211 101 }
+	color_ui = rgb { 130 211 101 }
+}
+
+YUC = {
+	color = rgb { 130 211 101 }
+	color_ui = rgb { 130 211 101 }
+}
+
+CIP = {
+	color = rgb { 130 211 101 }
+	color_ui = rgb { 130 211 101 }
+}
+
+OXC = {
+	color = rgb { 130 211 101 }
+	color_ui = rgb { 130 211 101 }
+}
+
+SOC = {
+	color = rgb { 60 59 110 }
+	color_ui = rgb { 60 59 110 }
+}
+
+UTH = {
+	color = rgb { 60 59 110 }
+	color_ui = rgb { 60 59 110 }
+}
+
+CT1 = {
+	color = rgb { 130 211 101 }
+	color_ui = rgb { 130 211 101 }
+}
+
+CT2 = {
+	color = rgb { 130 211 101 }
+	color_ui = rgb { 130 211 101 }
+}
+
+CT3 = {
+	color = rgb { 130 211 101 }
+	color_ui = rgb { 130 211 101 }
+}

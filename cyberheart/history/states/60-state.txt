@@ -1,0 +1,22 @@
+
+state={
+	id=60
+	name="STATE_60"
+
+	history={
+		owner = CND
+		add_core_of = CND
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 7869 1 } ## Whitehorse
+	}
+
+	provinces={
+		3606 7869 7891 14391 
+	}
+	manpower=320000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

@@ -122,7 +122,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="pol_power"
 			position = { x= 130 y = 8 }
-			font = "digital_7_20b"
+			font = "rajdhani_20"
 			text = "999"
 			format = center
 			maxWidth = 50
@@ -147,7 +147,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="manpower"
 			position = { x= 360 y = 8 }
-			font = "digital_7_20b"
+			font = "rajdhani_20"
 			text = "9999"
 			format = center
 			maxWidth = 60
@@ -172,7 +172,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="stability"
 			position = { x= 190 y = 8 }
-			font = "digital_7_20b"
+			font = "rajdhani_20"
 			text = "100%"
 			format = right
 			maxWidth = 57
@@ -197,7 +197,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="war_support"
 			position = { x= 263 y = 8 }
-			font = "digital_7_20b"
+			font = "rajdhani_20"
 			text = "100%"
 			format = right
 			maxWidth = 57
@@ -228,7 +228,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name ="experience_value"
 				position = { x= 23 y = 5 }
-				font = "digital_7_20b"
+				font = "rajdhani_20"
 				text = "999"
 				format = left
 				maxWidth = 45
@@ -261,7 +261,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name ="navy_experience_value"
 				position = { x= 23 y = 5 }
-				font = "digital_7_20b"
+				font = "rajdhani_20"
 				text = "999"
 				format = left
 				maxWidth = 45
@@ -294,7 +294,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name ="air_experience_value"
 				position = { x= 23 y = 5 }
-				font = "digital_7_20b"
+				font = "rajdhani_20"
 				text = "999"
 				format = left
 				maxWidth = 45
@@ -327,7 +327,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name ="command_power_value"
 				position = { x= 30 y = 5 }
-				font = "digital_7_20b"
+				font = "rajdhani_20"
 				text = "999"
 				format = left
 				maxWidth = 30
@@ -354,7 +354,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="industrial_capacity"
 			position = { x= 448 y = 8 } 
-			font = "digital_7_20b"
+			font = "rajdhani_20"
 			text = "12/12/12"
 			format = center
 			maxWidth = 50
@@ -381,7 +381,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="convoys_count"
 			position = { x= 672 y = 4 }
-			font = "digital_7_20b"
+			font = "rajdhani_20"
 			text = "0"
 			format = center
 			maxWidth = 44
@@ -415,7 +415,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="fuel_value"
 			position = { x= 523 y = 4 }
-			font = "digital_7_20b"
+			font = "rajdhani_20"
 			text = "999d"
 			format = center
 			maxWidth = 48
@@ -450,7 +450,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="supply_value"
 			position = { x= 596 y = 4 }
-			font = "digital_7_20b"
+			font = "rajdhani_20"
 			text = "999d"
 			format = center
 			maxWidth = 48
@@ -496,7 +496,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="threat_value"
 			position = { x=-98 y=74 }
-			font = "digital_7_20b"
+			font = "rajdhani_20"
 			text = "50%"
 			format = center
 			maxWidth = 55
@@ -524,7 +524,7 @@ guiTypes = {
 		instantTextBoxType = {
 			name ="nuke_count"
 			position = { x=1043 y=9 }
-			font = "digital_7_20b"
+			font = "rajdhani_20"
 			format = center
 			maxWidth = 44
 			maxHeight = 24
@@ -615,7 +615,7 @@ guiTypes = {
 				name = "DateText"
 				position = { x = -175 y = 4 }
 				textureFile = ""
-				font = "digital_7_20b"
+				font = "rajdhani_20"
 				text = "Hello Everypony"
 				maxWidth = 139
 				maxHeight = 32
@@ -720,7 +720,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name ="decisionview_amount_timeout_items"
 				position = { x= -101 y = 4 }
-				font = "digital_7_20b"
+				font = "rajdhani_20"
 				text = "999"
 				format = center
 				maxWidth = 20
@@ -739,7 +739,7 @@ guiTypes = {
 			instantTextBoxType = {
 				name ="decisionview_amount_to_take_items"
 				position = { x= -101 y = 20 }
-				font = "digital_7_20b"
+				font = "rajdhani_20"
 				text = "999"
 				format = center
 				maxWidth = 20

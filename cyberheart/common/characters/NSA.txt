@@ -1,0 +1,33 @@
+characters={
+	NSA_elizabeth_kress = {
+		name = NSA_elizabeth_kress
+		portraits = {
+			army = {
+				large = "gfx/leaders/NSA/NSA_elizabeth_kress.dds"
+			}
+		}
+		country_leader={
+			ideology = conservatism
+			traits = {  }
+			expire="3000.1.1.1"
+			id = -1
+			desc = "NSA_elizabeth_kress_desc"
+		}
+	}
+
+	NSA_rosalind_myers = {
+		name = NSA_rosalind_myers
+		portraits = {
+			army = {
+				large = "gfx/leaders/NSA/NSA_rosalind_myers.dds"
+			}
+		}
+		country_leader={
+			ideology = conservatism
+			traits = {  }
+			expire="3000.1.1.1"
+			id = -1
+			desc = "NSA_rosalind_myers_desc"
+		}
+	}
+}

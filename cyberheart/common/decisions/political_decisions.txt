@@ -1,2 +1,0 @@
-fascism_on_the_rise = {
-}

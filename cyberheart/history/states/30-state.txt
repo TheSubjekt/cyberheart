@@ -14,7 +14,7 @@ state={
 		victory_points = { 4531 1}#Indiana State Checkpoint
 		victory_points = { 10448 3}#Indianapolis
 	}
-	manpower=10
+	manpower=2300000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

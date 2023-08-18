@@ -1,2 +1,0 @@
-governments_in_exile = {
-}

@@ -1,0 +1,22 @@
+
+state={
+	id=63
+	name="STATE_63"
+
+	history={
+		owner = NUN
+		add_core_of = NUN
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = { 3691 1 }
+	}
+
+	provinces={
+		1712 3691 7813 14388 
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

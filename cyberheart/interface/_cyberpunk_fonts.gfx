@@ -24,4 +24,10 @@ bitmapfonts = {
 		path = "gfx/fonts/rajdhani_22b"
 		color = 0xffffffff
 	}
+
+	bitmapfont = {
+		name = "rajdhani_18"
+		path = "gfx/fonts/rajdhani_18"
+		color = 0xffffffff
+	}
 }

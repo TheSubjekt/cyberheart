@@ -11,9 +11,9 @@ state={
 		buildings = { infrastructure = 1 }
 		victory_points = { 9616 3} #Boise
 		victory_points = { 7845 1} #Berchtesgaden
-		victory_points = { 12535 1} #Ruins of Idaho Falls
+		#victory_points = { 12535 1} #Ruins of Idaho Falls
 	}
-	manpower=10
+	manpower=1100000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

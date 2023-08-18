@@ -1,4 +1,4 @@
-#capital = 82
+capital = 49
 
 # Starting tech
 set_technology = {
@@ -17,3 +17,5 @@ set_politics = {
 set_popularities = {
 	democratic = 100
 }
+
+recruit_character = NCY_lucius_rhyne

@@ -1,0 +1,17 @@
+characters={
+	NCY_lucius_rhyne = {
+		name = NCY_lucius_rhyne
+		portraits = {
+			army = {
+				large = "gfx/leaders/NCY/NCY_lucius_rhyne.dds"
+			}
+		}
+		country_leader={
+			ideology = conservatism
+			traits = {  }
+			expire="3000.1.1.1"
+			id = -1
+			desc = "NCY_lucius_rhyne_desc"
+		}
+	}
+}

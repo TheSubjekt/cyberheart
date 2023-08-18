@@ -2,21 +2,39 @@
 state={
 	id=42
 	name="STATE_42"
-	provinces={
-		598 706 734 859 1436 3702 3733 3747 3878 3894 6707 6717 6778 6795 6916 9664 9673 9693 9708 9721 9754 9774 11650 11654 11660 11680 11722 
-	}
+
 	history={
 		owner = NSA
 		add_core_of = NSA
-		buildings = { infrastructure = 1 }
-		victory_points = { 11654 1 } # Niagra Falls
-		victory_points = { 9664 1 } # Buffalo
-		victory_points = { 9795 3 } # Syracuse
-		victory_points = { 9721 3 } # Albany
-		victory_points = { 6717 1 } # Binghamton
-		victory_points = { 3878 6 } # New York City
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			11654 1 
+		}
+		victory_points = {
+			9664 1 
+		}
+		victory_points = {
+			9795 3 
+		}
+		victory_points = {
+			9721 3 
+		}
+		victory_points = {
+			6717 1 
+		}
+		victory_points = {
+			3878 6 
+		}
+
 	}
-	manpower=10
+
+	provinces={
+		598 706 734 859 1436 3702 3733 3747 3878 3894 6707 6717 6778 6795 6916 9664 9673 9693 9708 9721 9754 9774 11650 11654 11660 11680 11722 13157 
+	}
+	manpower=7300000
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

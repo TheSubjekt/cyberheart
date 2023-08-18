@@ -1,0 +1,290 @@
+GetCorporateInterestsPercentages = {
+	set_variable = { CorporateInterestsTotal = 0 } 
+    add_to_variable = {	CorporateInterestsTotal = CI_nationalised }
+	add_to_variable = {	CorporateInterestsTotal = CI_corporatised }
+	add_to_variable = {	CorporateInterestsTotal = CI_arasaka }
+	add_to_variable = {	CorporateInterestsTotal = CI_militech }
+	add_to_variable = {	CorporateInterestsTotal = CI_petrochem }
+	add_to_variable = {	CorporateInterestsTotal = CI_zetatech }
+	add_to_variable = {	CorporateInterestsTotal = CI_microtech }
+	add_to_variable = {	CorporateInterestsTotal = CI_dynalar_technologies }
+	add_to_variable = {	CorporateInterestsTotal = CI_rocklin_augments }
+	add_to_variable = {	CorporateInterestsTotal = CI_lazarus }
+	add_to_variable = {	CorporateInterestsTotal = CI_asukaga_finch }
+	add_to_variable = {	CorporateInterestsTotal = CI_illegitimate }
+
+	set_variable = { CountryNationalised = CorporateNationalised }
+    set_variable = { CountryCorporatised = CorporateCorporatised }
+    set_variable = { CountryArasaka = CorporateArasaka }
+    set_variable = { CountryMilitech = CorporateMilitech }
+    set_variable = { CountryPetrochem = CorporatePetrochem }
+    set_variable = { CountryZetatech = CorporateZetatech }
+    set_variable = { CountryMicrotech = CorporateMicrotech }
+    set_variable = { CountryDynalar_Technologies = CorporateDynalar_Technologies }
+    set_variable = { CountryRocklin_Augments = CorporateRocklin_Augments }
+    set_variable = { CountryLazarus = CorporateLazarus }
+    set_variable = { CountryAsukaga_Finch = CorporateAsukaga_Finch }
+    set_variable = { CountryIllegitimate = CorporateIllegitimate }
+
+	#divide_variable = {  CorporateNationalised = CorporateInterestsTotal }
+    #divide_variable = {  CorporateCorporatised = CorporateInterestsTotal }
+    #divide_variable = {  CorporateArasaka = CorporateInterestsTotal }
+    #divide_variable = {  CorporateMilitech = CorporateInterestsTotal }
+    #divide_variable = {  CorporatePetrochem = CorporateInterestsTotal }
+    #divide_variable = {  CorporateZetatech = CorporateInterestsTotal }
+    #divide_variable = {  CorporateMicrotech = CorporateInterestsTotal }
+    #divide_variable = {  CorporateDynalar_Technologies = CorporateInterestsTotal }
+    #divide_variable = {  CorporateRocklin_Augments = CorporateInterestsTotal }
+    #divide_variable = {  CorporateLazarus = CorporateInterestsTotal }
+    #divide_variable = {  CorporateAsukaga_Finch = CorporateInterestsTotal }
+    #divide_variable = {  CorporateIllegitimate = CorporateInterestsTotal }
+
+	clear_array = corporate_interests_percentage
+
+	multiply_variable = { CountryNationalised = 100 }
+	round_variable = CountryNationalised
+	add_to_array = { corporate_interests_percentage = CountryNationalised }
+    
+	multiply_variable = { CountryCorporatised = 100 }
+	round_variable = CountryCorporatised
+	add_to_array = { corporate_interests_percentage = CountryCorporatised }
+    
+	multiply_variable = { CountryArasaka = 100 }
+	round_variable = CountryArasaka
+	add_to_array = { corporate_interests_percentage = CountryArasaka }
+    
+	multiply_variable = { CountryMilitech = 100 }
+	round_variable = CountryMilitech
+	add_to_array = { corporate_interests_percentage = CountryMilitech }
+    
+	multiply_variable = { CountryPetrochem = 100 }
+	round_variable = CountryPetrochem
+	add_to_array = { corporate_interests_percentage = CountryPetrochem }
+    
+	multiply_variable = { CountryZetatech = 100 }
+	round_variable = CountryPZetatech
+	add_to_array = { corporate_interests_percentage = CountryPZetatech }
+    
+	multiply_variable = { CountryMicrotech = 100 }
+	round_variable = CountryMicrotech
+	add_to_array = { corporate_interests_percentage = CountryPMicrotech }
+    
+	multiply_variable = { CountryDynalar_Technologies = 100 }
+	round_variable = CountryDynalar_Technologies
+	add_to_array = { corporate_interests_percentage = CountryDynalar_Technologies }
+    
+	multiply_variable = { CountryPRocklin_Augments = 100 }
+	round_variable = CountryRocklin_Augments
+	add_to_array = { corporate_interests_percentage = CountryRocklin_Augments }
+    
+	multiply_variable = { CountryLazarus = 100 }
+	round_variable = CountryLazarus
+	add_to_array = { corporate_interests_percentage = CountryLazarus }
+    
+	multiply_variable = { CountryAsukaga_Finch = 100 }
+	round_variable = CountryAsukaga_Finch
+	add_to_array = { corporate_interests_percentage = CountryAsukaga_Finch }
+    
+	multiply_variable = { CountryIllegitimate = 100 }
+	round_variable = CountryIllegitimate
+	add_to_array = { corporate_interests_percentage = CountryIllegitimate }
+
+	clear_array = corporate_id 
+
+    add_to_array = { corporate_id = 1 }
+    add_to_array = { corporate_id = 2 }
+    add_to_array = { corporate_id = 3 }
+    add_to_array = { corporate_id = 4 }
+    add_to_array = { corporate_id = 5 }
+    add_to_array = { corporate_id = 6 }
+    add_to_array = { corporate_id = 7 }
+    add_to_array = { corporate_id = 8 }
+    add_to_array = { corporate_id = 9 }
+    add_to_array = { corporate_id = 10 }
+    add_to_array = { corporate_id = 11 }
+    add_to_array = { corporate_id = 12 }
+
+	set_temp_variable = { length_temp = corporate_interests_percentage^num }
+	for_loop_effect = {
+		start = 0
+		end = length_temp
+		add = 1
+		value = v
+		break = b
+		
+		find_highest_in_array = {
+			array = corporate_interests_percentage
+			value = v
+			index = ii
+		}
+		remove_from_array = {
+			array = corporate_interests_percentage
+			index = ii
+		}
+		add_to_temp_array = { 
+			array = corporate_interests_percentage_temp
+			value = v
+		}
+		set_temp_variable = { corporate_id_temp_var = corporate_id^ii }
+		remove_from_array = {
+			array = corporate_id
+			index = ii
+		}
+		add_to_temp_array = { 
+			array = corporate_id_temp
+			value = corporate_id_temp_var  
+		}
+	}
+	for_loop_effect = {
+		start = 0
+		end = length_temp
+		add = 1
+		value = v
+		break = b
+		
+		add_to_array = { 
+			array = corporate_interests_percentage
+			value = corporate_interests_percentage_temp^v
+		}
+		add_to_array = { 
+			array = corporate_id
+			value = corporate_id_temp^v 
+		}
+	}
+}
+
+## Following code courtesy of Yard1 Scripted-GUI-Pie-Chart master
+create_pie_chart = {
+	clear_array = pie_chart
+	resize_array = {
+		array = pie_chart
+		value = 1 # 1 is value for nationalised frame, so we don't have to make a loop for it
+		size = 100 # 100 pieces, each percent is one piece
+	} 
+	set_temp_variable = { nationalised_percent = CorporateNationalised }
+	#multiply_temp_variable = { nationalised_percent = 100 }
+	round_temp_variable = nationalised_percent
+
+	set_temp_variable = { corporatised_percent = CorporateCorporatised }
+	#multiply_temp_variable = { corporatised_percent = 100 }
+	round_temp_variable = corporatised_percent 
+	set_variable = { ROOT.last_idx = corporatised_percent }
+	add_to_temp_variable = { corporatised_percent = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = corporatised_percent
+		set_variable = { pie_chart^v = 2 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { arasaka_percent = CorporateArasaka }
+	#multiply_temp_variable = { arasaka_percent = 100 }
+	round_temp_variable = arasaka_percent
+	add_to_temp_variable = { arasaka_percent = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = arasaka_percent
+		set_variable = { pie_chart^v = 3 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { militech_percent = CorporateMilitech }
+	#multiply_temp_variable = { militech_percent = 100 }
+	round_temp_variable = militech_percent 
+	add_to_temp_variable = { militech_percent = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = militech_percent
+		set_variable = { pie_chart^v = 4 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+	set_temp_variable = { petrochem_percent = CorporatePetrochem }
+	#multiply_temp_variable = { petrochem_percent = 100 }
+	round_temp_variable = petrochem_percent 
+	add_to_temp_variable = { petrochem_percent = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = petrochem_percent
+		set_variable = { pie_chart^v = 5 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+	set_temp_variable = { zetatech_percent = CorporateZetatech }
+	#multiply_temp_variable = { zetatech_percent = 100 }
+	round_temp_variable = zetatech_percent 
+	add_to_temp_variable = { zetatech_percent = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = zetatech_percent
+		set_variable = { pie_chart^v = 6 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { microtech_percent = CorporateMicrotech }
+	#multiply_temp_variable = { microtech_percent = 100 }
+	round_temp_variable = microtech_percent 
+	add_to_temp_variable = { microtech_percent = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = microtech_percent
+		set_variable = { pie_chart^v = 7 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { dynalar_technologies_percent = CorporateDynalar_Technologies }
+	#multiply_temp_variable = { dynalar_technologies_percent = 100 }
+	round_temp_variable = dynalar_technologies_percent 
+	add_to_temp_variable = { dynalar_technologies_percent = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = dynalar_technologies_percent
+		set_variable = { pie_chart^v = 8 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { rocklin_augments_percent = CorporateRocklin_Augments }
+	#multiply_temp_variable = { rocklin_augments_percent = 100 }
+	round_temp_variable = rocklin_augments_percent 
+	add_to_temp_variable = { rocklin_augments_percent = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = rocklin_augments_percent
+		set_variable = { pie_chart^v = 9 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { lazarus_percent = CorporateLazarus }
+	#multiply_temp_variable = { lazarus_percent = 100 }
+	round_temp_variable = lazarus_percent 
+	add_to_temp_variable = { lazarus_percent = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = lazarus_percent
+		set_variable = { pie_chart^v = 10 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { asuka_finch_percent = CorporateAsukaga_Finch }
+	#multiply_temp_variable = { asuka_finch_percent = 100 }
+	round_temp_variable = asuka_finch_percent
+	add_to_temp_variable = { asuka_finch_percent = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = asuka_finch_percent
+		set_variable = { pie_chart^v = 11 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	set_temp_variable = { illegitimate_percent = CorporateIllegitimate }
+	#multiply_temp_variable = { illegitimate_percent = 100 }
+	round_temp_variable = illegitimate_percent 
+	add_to_temp_variable = { illegitimate_percent = ROOT.last_idx }
+	for_loop_effect = {
+		start = ROOT.last_idx
+		end = illegitimate_percent
+		set_variable = { pie_chart^v = 12 }
+		add_to_variable = { ROOT.last_idx = 1 }
+	}
+
+	clear_variable = ROOT.last_idx
+	add_to_variable = { pie_chart_dirty = 1 }
+}

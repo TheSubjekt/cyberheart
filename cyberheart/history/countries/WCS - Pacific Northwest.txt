@@ -1,4 +1,4 @@
-#capital = 28
+capital = 3
 
 # Starting tech
 set_technology = {
@@ -15,3 +15,5 @@ set_politics = {
 set_popularities = {
 	democratic = 100
 }
+
+recruit_character = WCS_jonathan_stoneedge

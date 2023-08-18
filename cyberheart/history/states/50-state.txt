@@ -1,20 +1,17 @@
-
 state={
 	id=50
 	name="STATE_50"
 	provinces={
-		1562 7517 9814 11757 11859 
+		1354 4360 4430 4623 7304 7361 7644 10244 
 	}
 	history={
-		owner = NSA
-		add_core_of = NSA
+		owner = CND
+		add_core_of = CND
 		buildings = { infrastructure = 1 }
-		victory_points = { 9814 6}#L.A.
-		victory_points = { 11859 6}# Thousand Oaks
-		victory_points = { 11757 6}#Irvine
-		victory_points = { 1562 6}#San Diego
+		victory_points = { 7361 1 }#Halifax
+		victory_points = { 4360 1 }#Charlottetown
 	}
-	manpower=10
+	manpower=990000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

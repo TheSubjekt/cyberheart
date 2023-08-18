@@ -1,0 +1,188 @@
+scripted_gui = {
+    cp_open_corporate_interests_window = {
+        context_type = player_context
+        parent_window_token = politics_tab
+		window_name = "cp_open_corporate_interests_window"
+         
+        visible = {
+            ROOT = {
+				is_ai = no
+				NOT = { has_country_flag = cp_corporate_interests_disabled }
+			}
+        }
+        
+        effects = {
+			open_button_click = {
+				ROOT = { set_country_flag = open_corporate_interests_interface }
+				GetCorporateInterestsPercentages = yes
+				create_pie_chart = yes
+			}
+			close_button_click = {
+				ROOT = { clr_country_flag = open_corporate_interests_interface }
+			}
+		}
+        
+        triggers = {
+			open_button_visible = {
+				ROOT = {
+					NOT = { has_country_flag = open_corporate_interests_interface }
+				}
+			}
+			close_button_visible = {
+				ROOT = {
+					has_country_flag = open_corporate_interests_interface
+				}
+			}
+		}
+    }
+	cp_corporate_interests_window = {
+        context_type = player_context
+        parent_window_token = politics_tab
+		window_name = "cp_corporate_interests_window"
+         
+        visible = {
+            ROOT = {
+				has_country_flag = open_corporate_interests_interface
+			}
+        }
+	}
+
+	pie_chart_corporate_interests = {		
+		window_name = "corporate_interests_container"
+		parent_window_name = "cp_corporate_interests_window_instance"
+
+		visible = { is_ai = no }
+		ai_enabled = { always = no }
+
+		dirty = pie_chart_dirty
+
+		properties = {
+			pie0 = { image = "[ci_pie_chart_0]" }
+			pie1 = { image = "[ci_pie_chart_1]" }
+			pie2 = { image = "[ci_pie_chart_2]" }
+			pie3 = { image = "[ci_pie_chart_3]" }
+			pie4 = { image = "[ci_pie_chart_4]" }
+			pie5 = { image = "[ci_pie_chart_5]" }
+			pie6 = { image = "[ci_pie_chart_6]" }
+			pie7 = { image = "[ci_pie_chart_7]" }
+			pie8 = { image = "[ci_pie_chart_8]" }
+			pie9 = { image = "[ci_pie_chart_9]" }
+			pie10 = { image = "[ci_pie_chart_10]" }
+			pie11 = { image = "[ci_pie_chart_11]" }
+			pie12 = { image = "[ci_pie_chart_12]" }
+			pie13 = { image = "[ci_pie_chart_13]" }
+			pie14 = { image = "[ci_pie_chart_14]" }
+			pie15 = { image = "[ci_pie_chart_15]" }
+			pie16 = { image = "[ci_pie_chart_16]" }
+			pie17 = { image = "[ci_pie_chart_17]" }
+			pie18 = { image = "[ci_pie_chart_18]" }
+			pie19 = { image = "[ci_pie_chart_19]" }
+			pie20 = { image = "[ci_pie_chart_20]" }
+			pie21 = { image = "[ci_pie_chart_21]" }
+			pie22 = { image = "[ci_pie_chart_22]" }
+			pie23 = { image = "[ci_pie_chart_23]" }
+			pie24 = { image = "[ci_pie_chart_24]" }
+			pie25 = { image = "[ci_pie_chart_25]" }
+			pie26 = { image = "[ci_pie_chart_26]" }
+			pie27 = { image = "[ci_pie_chart_27]" }
+			pie28 = { image = "[ci_pie_chart_28]" }
+			pie29 = { image = "[ci_pie_chart_29]" }
+			pie30 = { image = "[ci_pie_chart_30]" }
+			pie31 = { image = "[ci_pie_chart_31]" }
+			pie32 = { image = "[ci_pie_chart_32]" }
+			pie33 = { image = "[ci_pie_chart_33]" }
+			pie34 = { image = "[ci_pie_chart_34]" }
+			pie35 = { image = "[ci_pie_chart_35]" }
+			pie36 = { image = "[ci_pie_chart_36]" }
+			pie37 = { image = "[ci_pie_chart_37]" }
+			pie38 = { image = "[ci_pie_chart_38]" }
+			pie39 = { image = "[ci_pie_chart_39]" }
+			pie40 = { image = "[ci_pie_chart_40]" }
+			pie41 = { image = "[ci_pie_chart_41]" }
+			pie42 = { image = "[ci_pie_chart_42]" }
+			pie43 = { image = "[ci_pie_chart_43]" }
+			pie44 = { image = "[ci_pie_chart_44]" }
+			pie45 = { image = "[ci_pie_chart_45]" }
+			pie46 = { image = "[ci_pie_chart_46]" }
+			pie47 = { image = "[ci_pie_chart_47]" }
+			pie48 = { image = "[ci_pie_chart_48]" }
+			pie49 = { image = "[ci_pie_chart_49]" }
+			pie50 = { image = "[ci_pie_chart_50]" }
+			pie51 = { image = "[ci_pie_chart_51]" }
+			pie52 = { image = "[ci_pie_chart_52]" }
+			pie53 = { image = "[ci_pie_chart_53]" }
+			pie54 = { image = "[ci_pie_chart_54]" }
+			pie55 = { image = "[ci_pie_chart_55]" }
+			pie56 = { image = "[ci_pie_chart_56]" }
+			pie57 = { image = "[ci_pie_chart_57]" }
+			pie58 = { image = "[ci_pie_chart_58]" }
+			pie59 = { image = "[ci_pie_chart_59]" }
+			pie60 = { image = "[ci_pie_chart_60]" }
+			pie61 = { image = "[ci_pie_chart_61]" }
+			pie62 = { image = "[ci_pie_chart_62]" }
+			pie63 = { image = "[ci_pie_chart_63]" }
+			pie64 = { image = "[ci_pie_chart_64]" }
+			pie65 = { image = "[ci_pie_chart_65]" }
+			pie66 = { image = "[ci_pie_chart_66]" }
+			pie67 = { image = "[ci_pie_chart_67]" }
+			pie68 = { image = "[ci_pie_chart_68]" }
+			pie69 = { image = "[ci_pie_chart_69]" }
+			pie70 = { image = "[ci_pie_chart_70]" }
+			pie71 = { image = "[ci_pie_chart_71]" }
+			pie72 = { image = "[ci_pie_chart_72]" }
+			pie73 = { image = "[ci_pie_chart_73]" }
+			pie74 = { image = "[ci_pie_chart_74]" }
+			pie75 = { image = "[ci_pie_chart_75]" }
+			pie76 = { image = "[ci_pie_chart_76]" }
+			pie77 = { image = "[ci_pie_chart_77]" }
+			pie78 = { image = "[ci_pie_chart_78]" }
+			pie79 = { image = "[ci_pie_chart_79]" }
+			pie80 = { image = "[ci_pie_chart_80]" }
+			pie81 = { image = "[ci_pie_chart_81]" }
+			pie82 = { image = "[ci_pie_chart_82]" }
+			pie83 = { image = "[ci_pie_chart_83]" }
+			pie84 = { image = "[ci_pie_chart_84]" }
+			pie85 = { image = "[ci_pie_chart_85]" }
+			pie86 = { image = "[ci_pie_chart_86]" }
+			pie87 = { image = "[ci_pie_chart_87]" }
+			pie88 = { image = "[ci_pie_chart_88]" }
+			pie89 = { image = "[ci_pie_chart_89]" }
+			pie90 = { image = "[ci_pie_chart_90]" }
+			pie91 = { image = "[ci_pie_chart_91]" }
+			pie92 = { image = "[ci_pie_chart_92]" }
+			pie93 = { image = "[ci_pie_chart_93]" }
+			pie94 = { image = "[ci_pie_chart_94]" }
+			pie95 = { image = "[ci_pie_chart_95]" }
+			pie96 = { image = "[ci_pie_chart_96]" }
+			pie97 = { image = "[ci_pie_chart_97]" }
+			pie98 = { image = "[ci_pie_chart_98]" }
+			pie99 = { image = "[ci_pie_chart_99]" }
+		}
+	}
+
+	cp_corporate_interests_corporations_index = {
+		context_type = player_context
+		parent_window_name = "cp_corporate_interests_window_instance"
+		window_name = "cp_corporate_interests_corporations_index_window"
+
+		#dynamic_lists = {
+		#	active_corporations_list = {
+		#		array = corporate_id
+		#		entry_container = "corporate_index_window"
+		#		change_scope = yes
+		#	}
+		#}
+	}
+
+	cp_corporate_interests_general_view = {
+		context_type = player_context
+		parent_window_name = "cp_corporate_interests_window_instance"
+		window_name = "cp_corporate_interests_general_view_window"
+	}
+
+	cp_corporate_interests_dilemmas = {
+		context_type = player_context
+		parent_window_name = "cp_corporate_interests_window_instance"
+		window_name = "cp_corporate_interests_dilemmas_window"
+	}
+}

@@ -196,7 +196,7 @@ ideas = {
 				}
 
 				modifier = {
-					# If we CAN go for total mobilization and have enough manpower for it, skip war economy, it's only a waste of PP
+					# If we CND go for total mobilization and have enough manpower for it, skip war economy, it's only a waste of PP
 					factor = 0
 
 					manpower_per_military_factory > 15000

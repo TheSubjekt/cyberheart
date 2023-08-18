@@ -9,12 +9,12 @@ state={
 		add_core_of = NSA
 		buildings = { infrastructure = 1 }
 		victory_points = { 5059 1}#Huntsville
-		victory_points = { 7422 1}#Ruins of Birmingham
+		#victory_points = { 7422 1}#Ruins of Birmingham
 		victory_points = { 492 3}#Montgomery
 		victory_points = { 7640 1}#Dotham
 		victory_points = { 7480 1}#Mobile
 	}
-	manpower=10
+	manpower=2680000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
