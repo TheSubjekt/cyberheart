@@ -1,4 +1,7 @@
 spriteTypes = {
+	##
+	## Infantry Forces
+	##
 	SpriteType = {
 		name = "GFX_cp_infantry_equipment_tech_1_medium"
 		texturefile = "gfx/interface/technologies/infantry/technology_size.dds"

@@ -15,8 +15,56 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		"WCS"={
+			history = "WCS_CP_2068_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ROT"={
+			history = "ROT_CP_2068_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"NCY"={
+			history = "NCY_CP_2068_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
 		"CND"={
 			history = "CAN_CP_2068_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"MXC"={
+			history = "MXC_CP_2068_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"YUC"={
+			history = "YUC_CP_2068_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"NUN"={
+			history = "NUN_CP_2068_DESC"
 			ideology = democratic
 			ideas = {
 			}

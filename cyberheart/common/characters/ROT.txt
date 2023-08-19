@@ -1,0 +1,17 @@
+characters={
+	ROT_larry_longcock = {
+		name = ROT_larry_longcock
+		portraits = {
+			army = {
+				large = "gfx/leaders/ROT/ROT_larry_longcock.dds"
+			}
+		}
+		country_leader={
+			ideology = conservatism
+			traits = {  }
+			expire="3000.1.1.1"
+			id = -1
+			desc = "ROT_larry_longcock_desc"
+		}
+	}
+}

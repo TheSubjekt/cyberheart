@@ -15,3 +15,5 @@ set_politics = {
 set_popularities = {
 	democratic = 100
 }
+
+recruit_character = ROT_larry_longcock

@@ -12,11 +12,6 @@ stop_death_spiral_production = {
 default_unit_production = {
 
 	allowed = {
-		NOT = {
-			original_tag = HNZ 
-			original_tag = RED
-			original_tag = RCH  
-		}
 	}
 
 	enable = { always = yes }
@@ -56,12 +51,6 @@ stop_building_useless_stuff = {
 	ai_strategy = {
 		type = building_target
 		id = fuel_silo 
-		value = -10000
-	}
-
-	ai_strategy = {
-		type = building_target
-		id = synthetic_refinery
 		value = -10000
 	}
 

@@ -1,0 +1,17 @@
+characters={
+	MXC_uriel_herrera = {
+		name = MXC_uriel_herrera
+		portraits = {
+			army = {
+				large = "gfx/leaders/MXC/MXC_uriel_herrera.dds"
+			}
+		}
+		country_leader={
+			ideology = conservatism
+			traits = {  }
+			expire="3000.1.1.1"
+			id = -1
+			desc = "MXC_uriel_herrera_desc"
+		}
+	}
+}

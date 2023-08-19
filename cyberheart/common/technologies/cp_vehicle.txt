@@ -1,0 +1,946 @@
+technologies = {
+	cp_armor_tech_1 = {
+
+		path = {
+			leads_to_tech = cp_armor_tech_2
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cp_armor_tech_16
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 9 y = 9 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_2 = {
+
+		path = {
+			leads_to_tech = cp_armor_tech_3
+			research_cost_coeff = 1
+		}	
+
+		path = {
+			leads_to_tech = cp_armor_tech_7
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cp_armor_tech_11
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cp_armor_tech_12
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 9 y = 5 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_3 = {
+
+		path = {
+			leads_to_tech = cp_armor_tech_4
+			research_cost_coeff = 1
+		}	
+
+		path = {
+			leads_to_tech = cp_armor_tech_5
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cp_armor_tech_14
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 6 y = 5 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_4 = {
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 2 y = 5 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_5 = {
+		
+		research_cost = 2
+
+		path = {
+			leads_to_tech = cp_armor_tech_6
+			research_cost_coeff = 1
+		}
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 4 y = 3}
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_6 = {
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 4 y = 1 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_7 = {
+
+		path = {
+			leads_to_tech = cp_armor_tech_8
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cp_armor_tech_9
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cp_armor_tech_15
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 12 y = 5 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_8 = {
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 16 y = 5 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_9 = {
+		
+		research_cost = 2
+
+		path = {
+			leads_to_tech = cp_armor_tech_10
+			research_cost_coeff = 1
+		}
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 14 y = 3 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_10 = {
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 14 y = 1 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_11 = {
+		XOR = { cp_armor_tech_12 }
+		
+		research_cost = 2
+
+		path = {
+			leads_to_tech = cp_armor_tech_13
+			research_cost_coeff = 1
+		}
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 7 y = 3 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_12 = {
+		XOR = { cp_armor_tech_11 }
+
+		research_cost = 2
+
+		path = {
+			leads_to_tech = cp_armor_tech_13
+			research_cost_coeff = 1
+		}
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 11 y = 3 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_13 = {
+
+		dependencies = {
+			cp_armor_tech_3 = 1
+			cp_armor_tech_7 = 1
+		}
+
+		enable_equipments = {
+			superheavy_battle_tank_equipment
+		}
+
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 9 y = 1 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_14 = {
+
+		enable_equipments = {
+			main_battle_tank_equipment
+		}
+
+		path = {
+			leads_to_tech = cp_armor_tech_31
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 6 y = 7 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_15 = {
+
+		enable_equipments = {
+			light_battle_tank_equipment
+		}
+
+		path = {
+			leads_to_tech = cp_armor_tech_35
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 12 y = 7 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_16 = {
+
+		path = {
+			leads_to_tech = cp_armor_tech_17
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cp_armor_tech_21
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cp_armor_tech_26
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = cp_armor_tech_27
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 9 y = 13 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_17 = {
+
+		path = {
+			leads_to_tech = cp_armor_tech_18
+			research_cost_coeff = 1
+		}	
+
+		path = {
+			leads_to_tech = cp_armor_tech_19
+			research_cost_coeff = 1
+		}	
+
+		path = {
+			leads_to_tech = cp_armor_tech_29
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 6 y = 13 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_18 = {
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 2 y = 13 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_19 = {
+		
+		research_cost = 2
+
+		path = {
+			leads_to_tech = cp_armor_tech_20
+			research_cost_coeff = 1
+		}
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 4 y = 15 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_20 = {
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 4 y = 17 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_21 = {
+
+		path = {
+			leads_to_tech = cp_armor_tech_22
+			research_cost_coeff = 1
+		}	
+
+		path = {
+			leads_to_tech = cp_armor_tech_24
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = cp_armor_tech_30
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 12 y = 13 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_22 = {
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 16 y = 13 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_24 = {
+		
+		research_cost = 2
+
+		path = {
+			leads_to_tech = cp_armor_tech_25
+			research_cost_coeff = 1
+		}
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 14 y = 15 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_25 = {
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 14 y = 17 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_26 = {
+		XOR = { cp_armor_tech_27 }
+		
+		research_cost = 2
+
+		path = {
+			leads_to_tech = cp_armor_tech_28
+			research_cost_coeff = 1
+		}
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 7 y = 15 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_27 = {
+		XOR = { cp_armor_tech_26 }
+
+		research_cost = 2
+
+		path = {
+			leads_to_tech = cp_armor_tech_28
+			research_cost_coeff = 1
+		}
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x =11 y = 15 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_28 = {
+
+		dependencies = {
+			cp_armor_tech_17 = 1
+			cp_armor_tech_21 = 1
+		}
+
+		enable_equipments = {
+			cyberwalk_equipment
+		}
+
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 9 y = 17 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_29 = {
+
+		enable_equipments = {
+			tank_destroyer_equipment
+		}
+
+		path = {
+			leads_to_tech = cp_armor_tech_32
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 6 y = 11 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_30 = {
+
+		enable_equipments = {
+			hovercraft_tank_equipment
+		}
+
+		path = {
+			leads_to_tech = cp_armor_tech_36
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 12 y = 11 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_31 = {
+		
+		path = {
+			leads_to_tech = cp_armor_tech_33
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 3 y = 8 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_32 = {
+
+		path = {
+			leads_to_tech = cp_armor_tech_34
+			research_cost_coeff = 1
+		}	
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 3 y = 10 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_33 = {
+		
+		enable_equipments = {
+			tank_destroyer_equipment
+		}
+
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 0 y = 7 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_34 = {
+		enable_equipments = {
+			tank_destroyer_equipment
+		}	
+
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 0 y = 11 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_35 = {
+		
+		path = {
+			leads_to_tech = cp_armor_tech_37
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 16 y = 8 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_36 = {
+
+		path = {
+			leads_to_tech = cp_armor_tech_38
+			research_cost_coeff = 1
+		}	
+		
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 16 y = 10 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_37 = {
+		
+		enable_equipments = {
+			tank_destroyer_equipment
+		}
+
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 19 y = 7 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	cp_armor_tech_38 = {
+		enable_equipments = {
+			tank_destroyer_equipment
+		}	
+
+		research_cost = 2
+
+		start_year = 2040
+		folder = {
+			name = "vehicle_folder"
+			position = { x = 19 y = 11 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}
