@@ -11,6 +11,54 @@ equipments = {
 		group_by = archetype
 		
 		interface_category = interface_category_armor
+	}
+
+	hovercraft_tank_equipment_1 = {
+		year = 2040
+
+		archetype = hovercraft_tank_equipment 
+		parent = hovercraft_tank_equipment 
+		priority = 10
+		visual_level = 1
+		
+		#upgrades = {
+		#}
+
+		## TODO : STATS CHANGE ##
+		
+		# Misc Abilities
+		maximum_speed = 8
+		reliability = 0.8
+
+		# Defensive Abilities
+		defense = 5
+		breakthrough = 36
+		hardness = 0.9
+		armor_value = 60
+
+		# Offensive Abilities
+		soft_attack = 19
+		hard_attack = 14
+		ap_attack = 61
+		air_attack = 0
+
+		# Space taken in convoy
+		lend_lease_cost = 12
+		
+		build_cost_ic = 12 
+		resources = {
+		}
+		
+		fuel_consumption = 3.6
+	}
+
+	hovercraft_tank_equipment_2 = {
+		year = 2040
+
+		archetype = hovercraft_tank_equipment 
+		parent = hovercraft_tank_equipment_1
+		priority = 10
+		visual_level = 2
 		
 		#upgrades = {
 		#}

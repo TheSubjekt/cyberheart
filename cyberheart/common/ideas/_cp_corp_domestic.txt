@@ -1,0 +1,7 @@
+ideas = {
+	corp_mediacorp = {}
+
+	corp_banking = {}
+
+	corp_domestic = {}
+}

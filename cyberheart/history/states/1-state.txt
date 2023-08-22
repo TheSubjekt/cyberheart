@@ -37,6 +37,16 @@ state={
 		victory_points = {
 			3678 1 
 		}
+		buildings = { 
+             infrastructure = 4
+             industrial_complex = 4
+             arms_factory = 3
+             air_base = 1
+             dockyard = 3
+             components_refinery = 2
+             cyberware_fabricators = 1
+             ceramics_foundery = 2
+        }
 
 	}
 
@@ -45,6 +55,11 @@ state={
 	}
 	manpower=11100000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_city
 	local_supplies=0.000
+	resources={
+        oil = 6
+        steel = 8
+        alloys = 6 
+    }
 }

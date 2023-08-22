@@ -8,7 +8,6 @@ state={
 		add_core_of = NUN
 		buildings = {
 			infrastructure = 1
-
 		}
 		victory_points = {
 			10721 1 
@@ -17,7 +16,7 @@ state={
 	}
 
 	provinces={
-		2947 8962 10527 10721 13188 13189 13190 13191 14386 14390 
+		1070 1410 2947 8962 10166 10527 10721 12290 12870 13188 13189 13190 13191 14386 14390
 	}
 	manpower=66000
 	buildings_max_level_factor=1.000

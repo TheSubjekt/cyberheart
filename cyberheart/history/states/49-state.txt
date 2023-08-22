@@ -9,8 +9,19 @@ state={
 		add_core_of = NCY 
 		buildings = { infrastructure = 1 }
 		victory_points = { 986 10 } # Night City
+		buildings = { 
+             infrastructure = 6
+             industrial_complex = 8
+             arms_factory = 4
+             air_base = 1
+             dockyard = 2
+             components_refinery = 2
+             cyberware_fabricators = 2
+             ceramics_foundery = 2
+            synthetics_fabricator = 2
+        }
 	}
 	manpower=6000000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=megalopolis
 }

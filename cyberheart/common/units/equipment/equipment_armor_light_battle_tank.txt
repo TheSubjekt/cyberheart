@@ -9,6 +9,8 @@ equipments = {
 		is_convertable = yes
 		type = armor
 		group_by = archetype
+		
+		interface_category = interface_category_armor
 	}
 
 	light_battle_tank_equipment_1 = {

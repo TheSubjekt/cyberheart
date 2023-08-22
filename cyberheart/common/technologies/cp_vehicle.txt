@@ -1,6 +1,10 @@
 technologies = {
 	cp_armor_tech_1 = {
 
+		enable_equipments = {
+			main_battle_tank_equipment_1
+		}
+
 		path = {
 			leads_to_tech = cp_armor_tech_2
 			research_cost_coeff = 1
@@ -29,6 +33,10 @@ technologies = {
 	}
 
 	cp_armor_tech_2 = {
+		category_tanks = {
+			reliability = 0.02
+			maximum_speed = 0.01 
+		}
 
 		path = {
 			leads_to_tech = cp_armor_tech_3
@@ -69,6 +77,10 @@ technologies = {
 
 	cp_armor_tech_3 = {
 
+		category_tanks = {
+			defense = 0.025
+		}
+
 		path = {
 			leads_to_tech = cp_armor_tech_4
 			research_cost_coeff = 1
@@ -102,6 +114,10 @@ technologies = {
 	}
 
 	cp_armor_tech_4 = {
+
+		category_tanks = {
+			defense = 0.025
+		}
 		
 		research_cost = 2
 
@@ -121,6 +137,10 @@ technologies = {
 	}
 
 	cp_armor_tech_5 = {
+
+		category_tanks = {
+			hardness = 0.05
+		}
 		
 		research_cost = 2
 
@@ -145,6 +165,10 @@ technologies = {
 	}
 
 	cp_armor_tech_6 = {
+
+		category_tanks = {
+			hardness = 0.05
+		}
 		
 		research_cost = 2
 
@@ -164,6 +188,9 @@ technologies = {
 	}
 
 	cp_armor_tech_7 = {
+		category_tanks = {
+			ap_attack = 0.025
+		}
 
 		path = {
 			leads_to_tech = cp_armor_tech_8
@@ -198,6 +225,10 @@ technologies = {
 	}
 
 	cp_armor_tech_8 = {
+
+		category_tanks = {
+			breakthrough = 0.025
+		}
 		
 		research_cost = 2
 
@@ -217,6 +248,10 @@ technologies = {
 	}
 
 	cp_armor_tech_9 = {
+
+		category_tanks = {
+			supply_consumption = -0.02
+		}
 		
 		research_cost = 2
 
@@ -241,6 +276,10 @@ technologies = {
 	}
 
 	cp_armor_tech_10 = {
+
+		category_tanks = {
+			supply_consumption = -0.02
+		}
 		
 		research_cost = 2
 
@@ -261,6 +300,13 @@ technologies = {
 
 	cp_armor_tech_11 = {
 		XOR = { cp_armor_tech_12 }
+
+		category_main_battle_tank = {
+			breakthrough = 0.02
+		}
+		category_tank_destroyer = {
+			breakthrough = 0.02
+		}
 		
 		research_cost = 2
 
@@ -286,6 +332,13 @@ technologies = {
 
 	cp_armor_tech_12 = {
 		XOR = { cp_armor_tech_11 }
+
+		category_main_battle_tank = {
+			max_strength = 0.1
+		}
+		category_tank_destroyer = {
+			max_strength = 0.1
+		}
 
 		research_cost = 2
 
@@ -340,7 +393,7 @@ technologies = {
 	cp_armor_tech_14 = {
 
 		enable_equipments = {
-			main_battle_tank_equipment
+			main_battle_tank_equipment_2
 		}
 
 		path = {
@@ -368,7 +421,7 @@ technologies = {
 	cp_armor_tech_15 = {
 
 		enable_equipments = {
-			light_battle_tank_equipment
+			light_battle_tank_equipment_1
 		}
 
 		path = {
@@ -394,6 +447,10 @@ technologies = {
 	}
 
 	cp_armor_tech_16 = {
+		category_tanks = {
+			reliability = 0.01
+			maximum_speed = 0.02 
+		}
 
 		path = {
 			leads_to_tech = cp_armor_tech_17
@@ -434,6 +491,10 @@ technologies = {
 
 	cp_armor_tech_17 = {
 
+		category_tanks = {
+			ap_attack  = 0.025
+		}
+
 		path = {
 			leads_to_tech = cp_armor_tech_18
 			research_cost_coeff = 1
@@ -467,6 +528,10 @@ technologies = {
 	}
 
 	cp_armor_tech_18 = {
+
+		category_tanks = {
+			hard_attack = 0.025
+		}
 		
 		research_cost = 2
 
@@ -486,6 +551,10 @@ technologies = {
 	}
 
 	cp_armor_tech_19 = {
+
+		category_tanks = {
+			max_organisation = 1
+		}
 		
 		research_cost = 2
 
@@ -510,6 +579,10 @@ technologies = {
 	}
 
 	cp_armor_tech_20 = {
+
+		category_tanks = {
+			max_organisation = 1
+		}
 		
 		research_cost = 2
 
@@ -529,6 +602,10 @@ technologies = {
 	}
 
 	cp_armor_tech_21 = {
+
+		category_tanks = {
+			max_strength = 0.05
+		}
 
 		path = {
 			leads_to_tech = cp_armor_tech_22
@@ -563,6 +640,10 @@ technologies = {
 	}
 
 	cp_armor_tech_22 = {
+
+		category_tanks = {
+			soft_attack = 0.025
+		}
 		
 		research_cost = 2
 
@@ -582,6 +663,10 @@ technologies = {
 	}
 
 	cp_armor_tech_24 = {
+
+		category_tanks = {
+			armor_value = 0.05
+		}
 		
 		research_cost = 2
 
@@ -606,6 +691,10 @@ technologies = {
 	}
 
 	cp_armor_tech_25 = {
+
+		category_tanks = {
+			armor_value = 0.05
+		}
 		
 		research_cost = 2
 
@@ -626,6 +715,13 @@ technologies = {
 
 	cp_armor_tech_26 = {
 		XOR = { cp_armor_tech_27 }
+
+		category_main_battle_tank = {
+			breakthrough = 0.02
+		}
+		category_light_battle_tank = {
+			breakthrough = 0.02
+		}
 		
 		research_cost = 2
 
@@ -651,6 +747,13 @@ technologies = {
 
 	cp_armor_tech_27 = {
 		XOR = { cp_armor_tech_26 }
+
+		category_main_battle_tank = {
+			max_strength = 0.1
+		}
+		category_light_battle_tank = {
+			max_strength = 0.1
+		}
 
 		research_cost = 2
 
@@ -705,7 +808,7 @@ technologies = {
 	cp_armor_tech_29 = {
 
 		enable_equipments = {
-			tank_destroyer_equipment
+			tank_destroyer_equipment_1
 		}
 
 		path = {
@@ -733,7 +836,7 @@ technologies = {
 	cp_armor_tech_30 = {
 
 		enable_equipments = {
-			hovercraft_tank_equipment
+			hovercraft_tank_equipment_1
 		}
 
 		path = {
@@ -759,6 +862,10 @@ technologies = {
 	}
 
 	cp_armor_tech_31 = {
+
+		category_main_battle_tank = {
+			armor_value = 0.05
+		}
 		
 		path = {
 			leads_to_tech = cp_armor_tech_33
@@ -783,6 +890,10 @@ technologies = {
 	}
 
 	cp_armor_tech_32 = {
+
+		category_tank_destroyer = {
+			hard_attack = 0.05
+		}
 
 		path = {
 			leads_to_tech = cp_armor_tech_34
@@ -809,7 +920,7 @@ technologies = {
 	cp_armor_tech_33 = {
 		
 		enable_equipments = {
-			tank_destroyer_equipment
+			main_battle_tank_equipment_3
 		}
 
 		research_cost = 2
@@ -831,7 +942,7 @@ technologies = {
 
 	cp_armor_tech_34 = {
 		enable_equipments = {
-			tank_destroyer_equipment
+			tank_destroyer_equipment_2
 		}	
 
 		research_cost = 2
@@ -852,7 +963,12 @@ technologies = {
 	}
 
 	cp_armor_tech_35 = {
-		
+
+		category_light_battle_tank = {
+			max_organisation = 1
+			maximum_speed = 0.01 
+		}
+
 		path = {
 			leads_to_tech = cp_armor_tech_37
 			research_cost_coeff = 1
@@ -876,6 +992,11 @@ technologies = {
 	}
 
 	cp_armor_tech_36 = {
+
+		category_light_battle_tank = {
+			maximum_speed = 0.01 
+			max_strength = 0.05
+		}
 
 		path = {
 			leads_to_tech = cp_armor_tech_38
@@ -902,7 +1023,7 @@ technologies = {
 	cp_armor_tech_37 = {
 		
 		enable_equipments = {
-			tank_destroyer_equipment
+			light_battle_tank_equipment_2
 		}
 
 		research_cost = 2
@@ -924,7 +1045,7 @@ technologies = {
 
 	cp_armor_tech_38 = {
 		enable_equipments = {
-			tank_destroyer_equipment
+			hovercraft_tank_equipment_2
 		}	
 
 		research_cost = 2

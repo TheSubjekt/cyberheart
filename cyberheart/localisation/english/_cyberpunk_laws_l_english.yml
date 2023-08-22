@@ -1,0 +1,24 @@
+﻿l_english:
+ 	corp_naval_vessels: "Naval-Vessel Manufacturer"
+	corp_naval_naval_craft: "Naval-Craft Manufacturer"
+	corp_naval_submarine: "Naval Submarine"
+
+	corp_air_airforce: "Airforce Manufacturer"
+	corp_air_aerodynes: "Aerodyne Manufacturer"
+	corp_air_helicopters: "Helicopter Manufacturer"
+
+	corp_armed_forces_small_arms: "Small-Arms Manufacturer"
+	corp_armed_forces_apcs: "APC & Truck Manufacturer"
+	corp_armed_forces_tanks: "Tank Manufacturer"
+
+	corp_agricorp: "AgriCorps"
+	corp_computing: "CyberCorps"
+	corp_manufacturing: "ManuCorps"
+
+	corp_mediacorp: "MediaCorp"
+	corp_banking: "Banking & Financial"
+	corp_domestic: "DomesticCorp"
+
+  economic_advisor: "Economic Advisor"
+  air_advisor: "Airforce Advisor" 
+  navy_advisor: "Naval Advisor"

@@ -1,0 +1,7 @@
+ideas = {
+	corp_armed_forces_small_arms = {}
+
+	corp_armed_forces_apcs = {}
+
+	corp_armed_forces_tanks = {}
+}

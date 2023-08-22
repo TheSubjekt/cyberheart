@@ -1,10 +1,16 @@
 ﻿l_english:
 
   components_refinery: "Components Refinery"
+  components_refinery_plural: "Component Refineries"
   cyberware_fabricators: "Cybernetics Fabricator"
+  cyberware_fabricators_plural: "Cyberware Fabricators"
   ceramics_foundery: "Ceramics Manufactory"
+  ceramics_foundery_plural: "Ceramic Manufactories"
   synthetics_fabricator: "Synthetics Assembly-Plant"
+  synthetics_fabricator_plural: "Synthetic Assembly-Plants"
   chooh2_distillery: "CHOOH2 Refinery"
+  chooh2_distillery_plural: "CHOOH2 Refineries"
+
   modifier_production_speed_components_refinery_factor: "§4Components Refinery§! construction speed"
   modifier_production_speed_synthetics_fabricator_factor: "§4Synthetics Assembly-Plant§! construction speed"
   modifier_production_speed_cyberware_fabricators_factor: "§4Cybernetics Fabricator§! construction speed"

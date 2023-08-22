@@ -15,8 +15,24 @@ state={
 		victory_points = { 4736 1} #Los Juegos
 		victory_points = { 1862 1} #Arcadia
 		#victory_points = { 1} #Los Juegos
+		buildings = { 
+             infrastructure = 4
+             industrial_complex = 3
+             arms_factory = 3
+             air_base = 1
+             components_refinery = 1
+             cyberware_fabricators = 1
+             ceramics_foundery = 1
+             synthetics_fabricator = 1
+        }
 	}
 	manpower=2500000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
+	resources={
+        oil = 4
+        steel = 8
+        alloys = 8
+        uranium = 6
+	}
 }

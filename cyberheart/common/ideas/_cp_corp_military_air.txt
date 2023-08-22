@@ -1,0 +1,10 @@
+ideas = {
+	corp_air_airforce = {
+	}
+
+	corp_air_aerodynes = {
+	}
+
+	corp_air_helicopters = {
+	}
+}
