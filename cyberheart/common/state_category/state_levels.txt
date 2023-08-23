@@ -1,0 +1,197 @@
+state_categories= {
+
+	state_level_00 = {
+		local_building_slots = 1
+	
+		color = { 255 231 173 }
+
+	}
+
+	state_level_01 = {
+		local_building_slots = 2
+	
+		color = { 255 216 132 }
+
+	}
+
+	state_level_02 = {
+		local_building_slots = 4
+	
+		color = { 254 205 100 }
+
+	}
+
+	state_level_03 = {
+		local_building_slots = 6
+	
+		color = { 254 180 65 }
+	
+	}
+
+	state_level_04 = {
+		local_building_slots = 8
+	
+		color = { 254 165 46 }
+
+	}
+
+	state_level_05 = {
+		local_building_slots = 10
+	
+		color = { 254 140 24 }
+
+	}
+
+	state_level_06 = {
+		local_building_slots = 12
+	
+		color = { 254 126 0 }
+
+	}
+
+	state_level_07 = {
+		local_building_slots = 14
+	
+		color = { 254 108 0 }
+
+	}
+
+	state_level_08 = {
+		local_building_slots = 16
+	
+		color = { 254 140 24 }
+
+	}
+
+	state_level_09 = {
+		local_building_slots = 18
+	
+		color = { 254 140 24 }
+
+	}
+
+	state_level_10 = {
+		local_building_slots = 20
+	
+		color = { 254 140 24 }
+
+	}
+
+	state_level_11 = {
+		local_building_slots = 22
+	
+		color = { 254 140 24 }
+
+	}
+
+	state_level_12 = {
+		local_building_slots = 24
+	
+		color = { 254 140 24 }
+
+	}
+	state_level_13 = {
+		local_building_slots = 26
+	
+		color = { 254 140 24 }
+
+	}
+
+	state_level_14 = {
+		local_building_slots = 28
+	
+		color = { 254 140 24 }
+
+	}
+	
+	state_level_15 = {
+		local_building_slots = 30
+	
+		color = { 254 140 24 }
+
+	}
+
+	state_level_16 = {
+		local_building_slots = 32
+	
+		color = { 254 140 24 }
+
+	}
+
+	state_level_17 = {
+		local_building_slots = 34
+	
+		color = { 254 140 24 }
+
+	}
+
+	state_level_18 = {
+		local_building_slots = 36
+	
+		color = { 254 140 24 }
+
+	}
+
+	state_level_19 = {
+		local_building_slots = 38
+	
+		color = { 254 140 24 }
+
+	}
+
+	state_level_20 = {
+		local_building_slots = 40
+	
+		color = { 254 140 24 }
+
+	}
+
+	state_level_21 = {
+		local_building_slots = 42
+	
+		color = { 254 140 24 }
+
+	}
+	
+	state_level_22 = {
+		local_building_slots = 44
+	
+		color = { 254 140 24 }
+
+	}
+
+	state_level_23 = {
+		local_building_slots = 46
+	
+		color = { 254 140 24 }
+
+	}
+
+	state_level_24 = {
+		local_building_slots = 48
+	
+		color = { 254 140 24 }
+
+	}
+
+	state_level_25 = {
+		local_building_slots = 50
+	
+		color = { 254 140 24 }
+
+	}
+
+	state_wasteland = {
+		local_building_slots = 0
+
+		color = { 128 128 128 }
+
+	}
+
+	state_special_facility = {
+		local_building_slots = 0
+
+		color = { 128 128 128 }
+
+	}
+}
