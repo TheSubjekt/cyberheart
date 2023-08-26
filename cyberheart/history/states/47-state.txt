@@ -1,17 +1,33 @@
+
 state={
 	id=47
 	name="STATE_47"
-	provinces={
-		3732 6719 7462 10318 12202 12459 
-	}
+
 	history={
 		owner = NSA
 		add_core_of = NSA
-		buildings = { infrastructure = 1 }
-		victory_points = { 7462 1}#Bangor
-		victory_points = { 3732 3}#Augusta
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			7462 1 
+		}
+		victory_points = {
+			3732 3 
+		}
+
+	}
+
+	provinces={
+		1282 1338 1619 3732 4287 6719 7462 10247 10318 12202 12221 12459 
 	}
 	manpower=910000
 	buildings_max_level_factor=1.000
-	state_category=state_level_00
+
+	state_category=state_level_02
+	local_supplies=0.000
+
+	
+
 }

@@ -9,8 +9,26 @@ state={
 		add_core_of = UTH
 		buildings = { infrastructure = 1 }
 		victory_points = { 4865 3 }#Salt Lake City
+		buildings = { 
+             infrastructure = 3
+             industrial_complex = 2
+             arms_factory = 3
+             air_base = 1
+             ceramics_foundery = 1
+             synthetics_fabricator = 2
+        }
 	}
 	manpower=1600000
 	buildings_max_level_factor=1.000
-	state_category=state_level_00
+
+	state_category=state_level_04
+	resources={
+        oil = 2
+        steel = 8
+        alloys = 4
+        uranium = 12
+	}
+
+	
+
 }

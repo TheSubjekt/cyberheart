@@ -12,8 +12,23 @@ state={
 		victory_points = { 12578 1 } #Nelson
 		victory_points = { 1799 1 } #Prince Rupert
 		victory_points = { 10644 1 } #Dawson Creek
+		buildings = { 
+        	infrastructure = 3
+        	industrial_complex = 2
+        	arms_factory = 1
+        	air_base = 1
+        	dockyard = 2
+        	components_refinery = 1
+		}
 	}
 	manpower=4300000
 	buildings_max_level_factor=1.000
-	state_category=state_level_00
+
+	state_category=state_level_05
+	resources={
+       	alloys = 4
+	}
+
+	
+
 }

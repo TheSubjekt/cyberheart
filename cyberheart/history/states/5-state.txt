@@ -12,8 +12,22 @@ state={
 		victory_points = { 9616 3} #Boise
 		victory_points = { 7845 1} #Berchtesgaden
 		#victory_points = { 12535 1} #Ruins of Idaho Falls
+		buildings = { 
+            infrastructure = 3
+            industrial_complex = 2
+            arms_factory = 2
+            ceramics_foundery = 2
+        }
 	}
 	manpower=1100000
 	buildings_max_level_factor=1.000
-	state_category=state_level_00
+
+	state_category=state_level_04
+	resources={
+        alloys = 2
+        uranium = 8
+	}
+
+	
+
 }

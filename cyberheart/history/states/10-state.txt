@@ -8,8 +8,8 @@ state={
 		owner = ROT
 		add_core_of = ROT
 		buildings = { infrastructure = 1 }
-		victory_points = { 3972 3}#Amarillo
-		#victory_points = { 12301 1}#Ruins of Lubbock
+		victory_points = { 3972 3} #Amarillo
+		#victory_points = { 12301 1} #Ruins of Lubbock
 		victory_points = { 3960 6}#Dallas/Fort Worth Plex
 		victory_points = { 10740 3}#El Paso
 		victory_points = { 5061 1}#Laredo
@@ -25,5 +25,5 @@ state={
 	}
 	manpower=28000000
 	buildings_max_level_factor=1.000
-	state_category=state_level_00
+	state_category=state_level_08
 }

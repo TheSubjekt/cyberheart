@@ -8,15 +8,23 @@ state={
 		add_core_of = CND
 		buildings = {
 			infrastructure = 1
+
 		}
-		victory_points = { 14392 1 } ## Reindeer Station
+		victory_points = {
+			14392 1 
+		}
+
 	}
 
 	provinces={
-		4272 7696 7901 8653 10703 13075 14385 14387 14389 14392 
+		994 1431 4272 4393 7696 7901 8653 10703 12339 13075 14385 14387 14389 14392 
 	}
 	manpower=64000
 	buildings_max_level_factor=1.000
-	state_category=state_level_00
+
+	state_category=state_level_04
+
+	
+
 	local_supplies=0.000
 }

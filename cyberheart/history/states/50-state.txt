@@ -12,6 +12,7 @@ state={
 		victory_points = { 4360 1 }#Charlottetown
 	}
 	manpower=990000
+	state_category=state_level_04	
 	buildings_max_level_factor=1.000
-	state_category=state_level_00
+	
 }

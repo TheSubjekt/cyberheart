@@ -12,11 +12,21 @@ state={
 		victory_points = {
 			12303 1 
 		}
- 		victory_points ={ 9855 6 } #L.A.
+ 		victory_points ={ 9855 8 } #L.A.
  		victory_points ={ 11859 3} #Thousand Oaks
  		victory_points ={ 11757 3} #Irvine
  		victory_points ={ 1562 3} #San Diego
-
+ 		buildings = { 
+             infrastructure = 6
+             industrial_complex = 4
+             arms_factory = 4
+             air_base = 1
+             dockyard = 4
+             components_refinery = 2
+             cyberware_fabricators = 2
+             ceramics_foundery = 2
+             synthetics_fabricator = 2
+        }
 	}
 
 	provinces={
@@ -24,6 +34,16 @@ state={
 	}
 	manpower=16300000
 	buildings_max_level_factor=1.000
-	state_category=state_level_00
+
+	state_category=state_level_10
+
+	
+
 	local_supplies=0.000
+	resources={
+        oil = 8
+        steel = 6
+        alloys = 12 
+        uranium = 2
+	}
 }

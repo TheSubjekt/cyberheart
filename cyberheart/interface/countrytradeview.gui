@@ -609,7 +609,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "needed"
-			position = { x=19 y=94 }
+			position = { x=20 y=95 }
 			font = "rajdhani_20"
 			maxWidth = 50
 			maxHeight = 28
@@ -618,7 +618,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "neededType"
-			position = { x=10 y=94 }
+			position = { x=10 y=91 }
 			font = "rajdhani_20"
 			maxWidth = 50
 			maxHeight = 28

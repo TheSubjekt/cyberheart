@@ -11,8 +11,20 @@ state={
 		victory_points = { 4860 3}#Helena
 		victory_points = { 1851 1}#Billings
 		victory_points = { 1767 1}#Grand Prairie
+		buildings = { 
+            infrastructure = 3
+            industrial_complex = 2
+            arms_factory = 2
+            air_base = 1
+            components_refinery = 1
+            ceramics_foundery = 1
+        }
 	}
 	manpower=1100000
 	buildings_max_level_factor=1.000
-	state_category=state_level_00
+	state_category=state_level_04
+	resources={
+        oil = 16
+        alloys = 18
+	}
 }

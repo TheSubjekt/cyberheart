@@ -13,8 +13,27 @@ state={
 		victory_points = { 10642 1 }#Red Mesa
 		victory_points = { 8070 1 }#Roswell
 		victory_points = { 3867 1 }#The Caves
+		buildings = { 
+             infrastructure = 3
+             industrial_complex = 3
+             arms_factory = 2
+             air_base = 1
+             components_refinery = 1
+             cyberware_fabricators = 1
+             ceramics_foundery = 1
+        }
 	}
 	manpower=1700000
 	buildings_max_level_factor=1.000
-	state_category=state_level_00
+
+	state_category=state_level_05
+	resources={
+             oil = 12
+             steel = 8
+             alloys = 8
+             uranium = 16
+	}
+
+	
+
 }

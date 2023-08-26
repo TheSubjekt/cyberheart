@@ -12,8 +12,25 @@ state={
 		victory_points = { 3843 3 }#Phoenix
 		victory_points = { 3843 1 }#Tucson
 		#victory_points = { 1 }#Alpha
+		buildings = { 
+             infrastructure = 3
+             industrial_complex = 3
+             arms_factory = 2
+             air_base = 1
+             components_refinery = 2
+        }
 	}
 	manpower=4600000
 	buildings_max_level_factor=1.000
-	state_category=state_level_00
+
+	state_category=state_level_04
+	resources={
+        oil = 2
+        steel = 8
+        alloys = 4
+        uranium = 2
+	}
+
+	
+
 }

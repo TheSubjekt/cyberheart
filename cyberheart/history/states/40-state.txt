@@ -12,8 +12,18 @@ state={
 		victory_points = { 3957 10}#Washington DC
 		victory_points = { 6929 1}#New Greenspring
 		victory_points = { 6984 3}#Baltimore
+		buildings = { 
+            infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 4
+        }
 	}
 	manpower=8800000
 	buildings_max_level_factor=1.000
-	state_category=state_level_00
+
+	state_category=state_level_10
+
+
+	
+
 }
