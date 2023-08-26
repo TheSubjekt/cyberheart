@@ -1,7 +1,13 @@
 ﻿l_english:
  	category_light_battle_tank: "Light Battle Tanks"
+	category_light_battle_tank_desc: " "
 	category_main_battle_tank: "Main Battle Tanks"
+  category_main_battle_tank_desc: " "
 	category_superheavy_battle_tank: "Superheavy Battle Tanks"
+  category_superheavy_battle_tank_desc: " "
 	category_tank_destroyer: "Tank Destroyers"
+  category_tank_destroyer_desc: " "
 	category_hovercrafts: "Hovercraft Tanks"
+  category_hovercrafts_desc: " "
 	category_cyberwalks: "Cyberwalks"
+  category_cyberwalks_desc: " "

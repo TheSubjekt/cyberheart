@@ -64,7 +64,7 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "shared_slot_count"
-				position = { x = 492 y = 301 }
+				position = { x = 492 y = 293 }
 				textureFile = ""
 				font = "rajdhani_20"
 				text = "SLOTS"
