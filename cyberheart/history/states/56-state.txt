@@ -8,28 +8,18 @@ state={
 		add_core_of = CND
 		buildings = {
 			infrastructure = 1
-
 		}
-		victory_points = {
-			4872 3 
-		}
-		victory_points = {
-			4218 1 
-		}
-		victory_points = {
-			10585 1 
-		}
-		victory_points = {
-			6728 1 
-		}
-
+		victory_points = { 4872 3 }#Winnipeg
+		victory_points = { 4218 1 }#Dauphin
+		victory_points = { 10585 1 }#Fort Hall
+		victory_points = { 6728 1 }#Thompson
 	}
 
 	provinces={
-		1848 1873 3721 4218 4426 4790 4872 5119 5239 6728 7185 7362 7782 9615 10585 10605 12145 12636 12688 13163 13182 
+		1848 1873 3721 4218 4426 4790 4872 5119 5239 6728 7185 7782 9615 10585 10605 12145 12636 12688 13163 13182 
 	}
 	manpower=1560000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=state_level_00
 	local_supplies=0.000
 }

@@ -10,21 +10,8 @@ state={
 		buildings = { infrastructure = 1 }
 		victory_points = { 10588 3}#Denver
 		victory_points = { 6887 1}#Hydropolis
-		buildings = { 
-             infrastructure = 3
-             industrial_complex = 3
-             arms_factory = 2
-             components_refinery = 1
-             synthetics_fabricator = 1
-        }
 	}
 	manpower=2230000
 	buildings_max_level_factor=1.000
-	state_category=town
-	resources={
-             oil = 6
-             steel = 8
-             alloys = 4
-             uranium = 4
-	}
+	state_category=state_level_00
 }
