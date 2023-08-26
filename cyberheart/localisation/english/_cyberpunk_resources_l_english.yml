@@ -12,10 +12,10 @@
 	cyberware_desc: "C"
 
  	PRODUCTION_MATERIALS_CERAMICS: "Ceramics"
-	ceramics_desc: "§4A catch-all term to refer to Vehicular Armor. Consisting of composite layers of different materials such as Steel, Sillica, Titanium or Ceramics which are tightly-squeezed together and properties combined to effectively be used as armor plating.\n\nThe effectiveness of armor depends upon the materials and assembly patterns, a closely guarded secret by ManufacturerCorps and Regional Governments alike.§!"
+	ceramics_desc: "§4A catch-all term to refer to Vehicular Armor. Ceramic Armor Consists of composite layers of different materials such as Steel, Sillica, Titanium which are tightly-squeezed together and properties combined to effectively be used as armor plating.\n\nThe effectiveness of the armor depends upon the materials and assembly patterns, a closely guarded secret by ManuCorps and Regional Governments alike.§!"
 
  	PRODUCTION_MATERIALS_SYNTHETICS: "Synthetics"
 	synthetics_desc: "S"
 
  	PRODUCTION_MATERIALS_CHOOH2: "CHOOH2"
-	chooh2_desc: "§4A synthetic fuel made from grain-based alcohol,§! §YCHOOH2§! §4burns at a much higher temperature, much cleaner and combusts much easier compared to diesel or gasoline making it an ideal fuel source. Created from§! §YTriticum Vulgaris Megasuavis§!, §4a patented wheat crop created by the AgriCorp§! §YBiotechnica§! §4who license the rights to use their genetically-modified plants to other companies.§!
+	chooh2_desc: "§4A synthetic fuel made from grain-based alcohol,§! §YCHOOH2§! §4burns at a much higher temperature, is cleaner and combusts much easier compared to diesel or gasoline thus making it an ideal fuel source. Created from§! §YTriticum Vulgaris Megasuavis§!, §4a patented wheat crop created by the AgriCorp§! §YBiotechnica§! §4who license the rights to use their genetically-modified plants to other companies.§! §YCHOOH2§! §4is a stable resource for any State, Corporate or Paramilitary army which operates in the late 21st century.§!"
