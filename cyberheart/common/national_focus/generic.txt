@@ -11,16 +11,126 @@ focus_tree = {
 	default = yes
 	reset_on_civilwar = no
 
+	## Rudimentary test to see GUI changes. Change once focus trees are being developed
+
 	focus = {
-		id = generic_1
-		icon = GFX_goal_generic_allies_build_infantry
-		x = 1
+		id = focus_1
+		icon = GFX_goal
+		x = 3
 		y = 0
-		cost = 10
-		available_if_capitulated = yes
+		cost = 6.5
+
+		ai_will_do = {
+			factor = 50
+		}
 
 		completion_reward = {
-			army_experience = 5
+		    capital_scope = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = focus_2
+		icon = GFX_goal
+		cost = 6.5
+
+		prerequisite = {
+			focus = focus_1
+		}
+		x = -2
+		y = 1
+		relative_position_id = focus_1
+
+		ai_will_do = {
+			factor = 3
+		}
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = focus_3
+		icon = GFX_goal
+		cost = 6.5
+
+		prerequisite = {
+			focus = focus_2
+		}
+		x = -1
+		y = 1
+		relative_position_id = focus_2
+
+		ai_will_do = {
+			factor = 3
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = focus_im_just_testing_how_long_text_we_can_do_yeah_i_know_loc_strings
+		icon = GFX
+		cost = 6.5
+
+		prerequisite = {
+			focus = focus_3
+		}
+		x = 0
+		y = 1
+		relative_position_id = focus_3
+
+		ai_will_do = {
+			factor = 3
+		}
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = focus_aaaaaaaaaaaaaaaaaaaaa
+		icon = GFX
+		cost = 6.5
+
+		prerequisite = {
+			focus = focus_im_just_testing_how_long_text_we_can_do_yeah_i_know_loc_strings
+		}
+		x = 2
+		y = 1
+		relative_position_id = focus_im_just_testing_how_long_text_we_can_do_yeah_i_know_loc_strings
+
+		ai_will_do = {
+			factor = 3
+		}
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
 		}
 	}
 }
