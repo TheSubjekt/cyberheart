@@ -78,8 +78,8 @@ guiTypes = {
 				position = { x = 153 y = 170 }
 				size = { width = 480 height = 100% }
 				format = "UPPER_LEFT"
-				slotsize = { width = 58 height = 46 }
-				max_slots_horizontal = 8
+				slotsize = { width = 46 height = 46 }
+				max_slots_horizontal = 10
 			}
 
 			iconType ={
@@ -474,8 +474,9 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "state_shared_slot_building_entry"
-		position = { x=-131 y=134 }
-		size = { width=70 height= 70 }
+		position = { x=-133 y=134 }
+		size = { width=40 height= 70 }
+		scale = 0.89
 		clipping = no
 
 		iconType = {

@@ -20,7 +20,6 @@ guiTypes = {
 			maxWidth = 500
 			maxHeight = 20
 			format = left
-			clipping = yes
 		}
 
 		### start search field
@@ -434,7 +433,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 15 y = 58 }
-			font = "rajdhani_22b"
+			font = "rajdhani_18"
 			text = ""
 			maxWidth = 145
 			maxHeight = 20
@@ -505,7 +504,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "name"
 			position = { x = 15 y = 58 }
-			font = "rajdhani_20"
+			font = "rajdhani_22b"
 			text = ""
 			maxWidth = 147
 			maxHeight = 20
