@@ -66,7 +66,7 @@ guiTypes = {
 				name = "available_factories_value"
 				position = { x = 10 y = 32 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "rajdhani_20"
 				borderSize = {x = 0 y = 0}
 				text = "20/37"
 				maxWidth = 87
@@ -79,7 +79,7 @@ guiTypes = {
 				name = "from_trade"
 				position = { x = 94 y = 24 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "rajdhani_20"
 				borderSize = {x = 0 y = 0}
 				text = "from_trade"
 				maxWidth = 200
@@ -90,7 +90,7 @@ guiTypes = {
 				name = "traded_factories_value"
 				position = { x = 159 y = 24 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "rajdhani_20"
 				borderSize = {x = 0 y = 0}
 				text = "99"
 				maxWidth = 70
@@ -102,7 +102,7 @@ guiTypes = {
 				name = "local_factories"
 				position = { x = 94 y = 44 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "rajdhani_20"
 				borderSize = {x = 0 y = 0}
 				text = "owned"
 				maxWidth = 200
@@ -114,7 +114,7 @@ guiTypes = {
 				name = "local_factories_value"
 				position = { x = 159 y = 44 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "rajdhani_20"
 				borderSize = {x = 0 y = 0}
 				text = "99"
 				maxWidth = 70
@@ -132,7 +132,7 @@ guiTypes = {
 				name = "construction_speed_value"
 				position = { x = 315 y = 44 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "rajdhani_20"
 				borderSize = {x = 0 y = 0}
 				text = "99"
 				maxWidth = 70
@@ -145,7 +145,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "location"
 			position = { x = 20 y = 106 }
-			font = "hoi_18mbs"
+			font = "rajdhani_20"
 			maxWidth = 150			
 			text = "CONSTRUCTION_LOCATION_LABEL"
 			format = center
@@ -154,7 +154,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "task"
 			position = { x = 180 y = 106 }
-			font = "hoi_18mbs"
+			font = "rajdhani_20"
 			maxWidth = 80				
 			text = "CONSTRUCTION_TASK_LABEL"
 			format = center
@@ -169,7 +169,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "factories_amount"
 			position = { x = 250 y = 106 }
-			font = "hoi_18mbs"
+			font = "rajdhani_20"
 			maxWidth = 120				
 			text = "CONSTRUCTION_FACTORIES_LABEL"
 			format = center
@@ -178,7 +178,7 @@ guiTypes = {
 		instantTextboxType = {
 			name = "priority"
 			position = { x = 330 y = 106 }
-			font = "hoi_18mbs"
+			font = "rajdhani_20"
 			maxWidth = 110				
 			text = "CONSTRUCTION_PRIORITY_LABEL"
 			format = center
@@ -239,19 +239,19 @@ guiTypes = {
 
 			iconType = {
 				name = "state_constructions"
-				position = { x = 5 y = 9 }
+				position = { x = 58 y = 19 }
 				quadTextureSprite = "GFX_state_constructions"
 			}
 
 			iconType = {
 				name = "shared_constructions"
-				position = { x = 5 y = 155 }
+				position = { x = 58 y = 165 }
 				quadTextureSprite = "GFX_shared_constructions"
 			}
 
 			iconType = {
 				name = "province_constructions"
-				position = { x = 5 y = 483 }
+				position = { x = 58 y = 491 }
 				quadTextureSprite = "GFX_province_constructions"
 			}
 			
@@ -404,7 +404,7 @@ guiTypes = {
 			name = "location"
 			position = { x = 20 y = 4 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "rajdhani_20"
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
 			maxWidth = 150
@@ -438,7 +438,7 @@ guiTypes = {
 			name = "queued"
 			position = { x = 162 y = 29 }
 			textureFile = ""
-			font = "hoi_18b"
+			font = "rajdhani_20"
 			text = "-"
 			maxWidth = 50
 			maxHeight = 20
@@ -462,7 +462,7 @@ guiTypes = {
 			name = "factories"
 			position = { x = 254 y = 9 }
 			textureFile = ""
-			font = "hoi_18b"
+			font = "rajdhani_20"
 			text = "-"
 			maxWidth = 50
 			maxHeight = 20
@@ -550,7 +550,7 @@ guiTypes = {
 			name = "location"
 			position = { x = 20 y = 4 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "rajdhani_20"
 			borderSize = {x = 0 y = 0}
 			text = "Maus"
 			maxWidth = 150
@@ -585,7 +585,7 @@ guiTypes = {
 			name = "queued"
 			position = { x = 192 y = 29 }
 			textureFile = ""
-			font = "hoi_18b"
+			font = "rajdhani_20"
 			text = "-"
 			maxWidth = 20
 			maxHeight = 20
@@ -609,7 +609,7 @@ guiTypes = {
 			name = "factories"
 			position = { x = 254 y = 9 }
 			textureFile = ""
-			font = "hoi_18b"
+			font = "rajdhani_20"
 			text = "-"
 			maxWidth = 50
 			maxHeight = 20
@@ -650,7 +650,7 @@ guiTypes = {
 			name = "name"
 			position = { x = 20 y = 16 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "rajdhani_20"
 			borderSize = {x = 0 y = 0}
 			text = "PRODUCTION_CONSUMER_GOODS"
 			maxWidth = 150
@@ -674,7 +674,7 @@ guiTypes = {
 			name = "factories"
 			position = { x = 254 y = 17 }
 			textureFile = ""
-			font = "hoi_18b"
+			font = "rajdhani_20"
 			text = "-"
 			maxWidth = 50
 			maxHeight = 20
@@ -699,7 +699,7 @@ guiTypes = {
 			name = "name"
 			position = { x = 20 y = 16 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "rajdhani_20"
 			borderSize = {x = 0 y = 0}
 			text = "CONSTRUCTION_FACTORIES_TRADE_LABEL"
 			maxWidth = 250
@@ -722,7 +722,7 @@ guiTypes = {
 			name = "factories"
 			position = { x = 254 y = 17 }
 			textureFile = ""
-			font = "hoi_18b"
+			font = "rajdhani_20"
 			text = "-"
 			maxWidth = 50
 			maxHeight = 20
@@ -747,7 +747,7 @@ guiTypes = {
 			name = "name"
 			position = { x = 20 y = 16 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "rajdhani_20"
 			borderSize = {x = 0 y = 0}
 			text = "CONSTRUCTION_FACTORIES_PROJECTS_LABEL"
 			maxWidth = 250
@@ -770,7 +770,7 @@ guiTypes = {
 			name = "factories"
 			position = { x = 254 y = 17 }
 			textureFile = ""
-			font = "hoi_18b"
+			font = "rajdhani_20"
 			text = "-"
 			maxWidth = 50
 			maxHeight = 20

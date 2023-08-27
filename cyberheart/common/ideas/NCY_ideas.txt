@@ -1,6 +1,117 @@
 ideas = {
 	country = {
-		NCY_national_spirit_test = {
+		## Testing National Sprits grid. Remove when We actually make content...
+		NCY_national_spirit_test_1 = {
+			#picture = 
+
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+                war_support_factor = 0.01
+	        }
+	    }
+		NCY_national_spirit_test_2 = {
+			#picture = 
+
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+                war_support_factor = 0.01
+	        }
+	    }
+		NCY_national_spirit_test_3 = {
+			#picture = 
+
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+                war_support_factor = 0.01
+	        }
+	    }
+		NCY_national_spirit_test_4 = {
+			#picture = 
+
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+                war_support_factor = 0.01
+	        }
+	    }
+		NCY_national_spirit_test_5 = {
+			#picture = 
+
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+                war_support_factor = 0.01
+	        }
+	    }
+		NCY_national_spirit_test_6 = {
+			#picture = 
+
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+                war_support_factor = 0.01
+	        }
+	    }
+		NCY_national_spirit_test_7 = {
+			#picture = 
+
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+                war_support_factor = 0.01
+	        }
+	    }
+		NCY_national_spirit_test_8 = {
+			#picture = 
+
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+                war_support_factor = 0.01
+	        }
+	    }
+		NCY_national_spirit_test_9 = {
+			#picture = 
+
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+                war_support_factor = 0.01
+	        }
+	    }
+		NCY_national_spirit_test_10 = {
+			#picture = 
+
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+                war_support_factor = 0.01
+	        }
+	    }
+		NCY_national_spirit_test_11 = {
+			#picture = 
+
+			allowed = {
+			}
+			removal_cost = -1
+			modifier = {
+                war_support_factor = 0.01
+	        }
+	    }
+		NCY_national_spirit_test_12 = {
 			#picture = 
 
 			allowed = {
