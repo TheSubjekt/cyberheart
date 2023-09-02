@@ -44,12 +44,6 @@ guiTypes = {
 		#hide_sound = menu_close_window
 		show_sound = menu_open_window
 
-		background = {
-			name = "Background"		
-			quadTextureSprite ="GFX_tiled_plain_bg"
-		}
-
-		
 		iconType ={
 			name ="production_header_bg"
 			spriteType = "GFX_header_bg"
@@ -82,11 +76,6 @@ guiTypes = {
 				name = "Background"
 				quadTextureSprite ="GFX_tiled_window2_1b_border"
 			}
-
-			background = {
-				name = "Background"		
-				quadTextureSprite ="GFX_tiled_generic_overlay_bg1"
-			}
 			
 			gridboxType = {
 				name = "research_slots_grid"
@@ -101,7 +90,7 @@ guiTypes = {
 		containerWindowType = {
 			name = "research_win_top"
 			position = { x = 1 y = 44 }
-			size = { width = 100% height = 80% }
+			size = { width = 100% height = 100% }
 
 			background = {
 				name = "Background"
@@ -110,27 +99,27 @@ guiTypes = {
 
 			iconType = {
 				name = "focus_bonuses_bg"
-				position = { x = 263 y = 14 }
+				position = { x = 26311 y = 14 }
 				spriteType = "GFX_win_header_short_right"
 			}
 			
 			iconType = {
 				name = "focus_bonuses"
-				position = { x = 288 y = 14 }
+				position = { x = 2818 y = 14 }
 				spriteType = "GFX_focus_bonuses_icon"
 			}
 
 			iconType = {
 				name = "research_speed_icon"
-				position = { x = 435 y = 13 }
+				position = { x = 450 y = 14 }
 				spriteType = "GFX_research_speed_icon"
 			}
 
 			instantTextboxType = {
 				name = "research_speed_value"
-				position = { x = 454 y = 16 }
+				position = { x = 464 y = 16 }
 				textureFile = ""
-				font = "hoi_18mbs"
+				font = "rajdhani_20"
 				borderSize = {x = 0 y = 0}
 				text = "999"
 				maxWidth = 50
@@ -164,7 +153,7 @@ guiTypes = {
 				
 		buttonType = {
 			name = "close_button"
-			position = { x = -43 y = 9 }
+			position = { x = -60 y = 9 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
@@ -222,20 +211,20 @@ guiTypes = {
 	
 		instantTextboxType = {
 			name = "title"
-			position = { x = 57 y = 12 }
+			position = { x = 17 y = 9 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "rajdhani_20"
 			borderSize = {x = 0 y = 0}
-			maxWidth = 400
+			maxWidth = 500
 			maxHeight = 30
 			format = left
 		}
 		
 		instantTextboxType = {
 			name = "year"
-			position = { x = 57 y = 60 }
+			position = { x = 62 y = 58 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "rajdhani_20"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 50
 			maxHeight = 22
@@ -244,9 +233,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "eta"
-			position = { x = 335 y = 12 }
+			position = { x = 368 y = 9 }
 			textureFile = ""
-			font = "hoi_18mbs"
+			font = "rajdhani_20"
 			borderSize = {x = 0 y = 0}
 			maxWidth = 125
 			maxHeight = 20

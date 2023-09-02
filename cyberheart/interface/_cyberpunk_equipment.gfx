@@ -1,0 +1,67 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_cp_armor_tech_1_medium"
+		texturefile = "gfx/interface/equipment/vehicle/generic/main_battle_tank_equipment_1.dds"
+	    alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_cp_armor_tech_3_medium"
+		texturefile = "gfx/interface/equipment/vehicle/generic/main_battle_tank_equipment_2.dds"
+	    alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_cp_armor_tech_8_medium"
+		texturefile = "gfx/interface/equipment/vehicle/generic/main_battle_tank_equipment_3.dds"
+	    alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_cp_armor_tech_26_medium"
+		texturefile = "gfx/interface/equipment/vehicle/generic/light_battle_tank_equipment_1.dds"
+	    alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_cp_armor_tech_30_medium"
+		texturefile = "gfx/interface/equipment/vehicle/generic/light_battle_tank_equipment_2.dds"
+	    alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_cp_armor_tech_34_medium"
+		texturefile = "gfx/interface/equipment/vehicle/generic/cyberwalk_equipment_1.dds"
+	    alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_cp_armor_tech_45_medium"
+		texturefile = "gfx/interface/equipment/vehicle/generic/cyberwalk_equipment_2.dds"
+	    alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_cp_armor_tech_15_medium"
+		texturefile = "gfx/interface/equipment/vehicle/generic/tank_destroyer_equipment_1.dds"
+	    alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_cp_armor_tech_19_medium"
+		texturefile = "gfx/interface/equipment/vehicle/generic/tank_destroyer_equipment_2.dds"
+	    alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_cp_armor_tech_23_medium"
+		texturefile = "gfx/interface/equipment/vehicle/generic/superheavy_battle_tank_equipment_1.dds"
+	    alwaystransparent = yes
+	}
+	#SpriteType = {
+	#	name = "GFX_cp_armor_tech_29_medium"
+	#	texturefile = "gfx/interface/equipment/vehicle/generic/superheavy_battle_tank_equipment_2.dds"
+	#    alwaystransparent = yes
+	#}
+	SpriteType = {
+		name = "GFX_cp_armor_tech_39_medium"
+		texturefile = "gfx/interface/equipment/vehicle/generic/hovercraft_tank_equipment_1.dds"
+	    alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_cp_armor_tech_42_medium"
+		texturefile = "gfx/interface/equipment/vehicle/generic/hovercraft_tank_equipment_2.dds"
+	    alwaystransparent = yes
+	}
+}

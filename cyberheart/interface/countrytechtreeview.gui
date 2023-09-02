@@ -209,6 +209,14 @@ guiTypes = {
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
+
+			gridboxtype = {
+				name = "cp_armor_tech_26_tree"
+				position = { x = 0 y = 0 }
+				size = { width = 520 height = 800 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
 		}
 
 		containerWindowType = {
